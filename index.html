@@ -3,218 +3,158 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#090806">
-  <meta name="description" content="Ayan — Founder at Atimos AI, Co-founder at WebHorizn, and a developer building for the web, applied AI, and robotics.">
+  <meta name="theme-color" content="#10100e">
+  <meta name="description" content="Ayan is a student developer from India, co-founder of WebHorizn, and builder at Atimos AI. Selected web projects, AI tools, and experiments.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Ayan — Creative Developer & AI Builder">
-  <meta property="og:description" content="Founder at Atimos AI. Co-founder at WebHorizn. Web development, applied AI, and robotics.">
-  <meta property="og:image" content="./og-cover.svg">
-  <meta name="twitter:card" content="summary_large_image">
-  <title>Ayan — Creative Developer, AI Builder & Robotics Enthusiast</title>
+  <meta property="og:title" content="Ayan — Student Developer">
+  <meta property="og:description" content="Student developer. Co-founder of WebHorizn. Building Atimos AI.">
+  <title>Ayan — Student Developer</title>
   <link rel="icon" type="image/svg+xml" href="./favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
   <script src="./app.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="grain" aria-hidden="true"></div>
   <div class="scroll-progress" aria-hidden="true"><span id="progress-bar"></span></div>
 
   <header class="site-header" id="top">
-    <a class="brand" href="#top" aria-label="Ayan home">
-      <span class="brand-mark">A<span>.</span></span>
-      <span class="brand-text">AYAN <small>DEVELOPER / BUILDER</small></span>
-    </a>
+    <a class="wordmark" href="#top" aria-label="Ayan, home">ayan<span>.</span></a>
     <nav class="desktop-nav" aria-label="Main navigation">
       <a href="#work">Work</a>
-      <a href="#lab">AI lab</a>
+      <a href="#experiments">Experiments</a>
       <a href="#about">About</a>
-      <a href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      <a href="#contact">Contact</a>
     </nav>
-    <a class="availability" href="#contact"><i aria-hidden="true"></i> Open to collaboration</a>
     <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu">
       <span></span><span></span>
     </button>
   </header>
 
-  <div class="mobile-menu" id="mobile-menu" hidden>
-    <a href="#work">Work <span>01</span></a>
-    <a href="#lab">AI lab <span>02</span></a>
-    <a href="#about">About <span>03</span></a>
-    <a href="#contact">Contact <span>↗</span></a>
-  </div>
+  <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" hidden>
+    <a href="#work">Work</a>
+    <a href="#experiments">Experiments</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
   <main id="main">
-    <div class="top-grid">
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="index">[ 01 ]</span><span>DEVELOPER<br>AI BUILDER<br>CREATIVE THINKER</span></p>
-        <h1 id="hero-title">Creative<br>developer<br><em>building</em><br>what’s next.</h1>
-        <p class="hero-summary">I make digital experiences, explore practical AI, and build technology that reaches beyond the screen.</p>
+        <p class="hero-kicker">Student developer · India</p>
+        <h1 id="hero-title">I'm Ayan.</h1>
+        <p class="hero-statement">I build websites and AI tools. I’m co-building WebHorizn and developing projects under Atimos AI.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↗</span></a>
-          <a class="text-link" href="https://github.com/okojiayan" target="_blank" rel="noopener noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
+          <a class="button-primary" href="#work">View my work</a>
+          <a class="button-text" href="https://github.com/okojiayan" target="_blank" rel="noopener noreferrer">GitHub profile</a>
         </div>
-        <div class="hero-bottom">
-          <div><span class="mono-label">MY WORLD</span><p>Web / Applied AI / Robotics</p></div>
-          <div><span class="mono-label">MY APPROACH</span><p>Learn it. Build it. Test it.</p></div>
+        <div class="hero-roles" aria-label="Current roles">
+          <div><span>Co-founder</span><a href="https://webhorizn.vercel.app/" target="_blank" rel="noopener noreferrer">WebHorizn</a></div>
+          <div><span>Building</span><a href="#experiments">Atimos AI</a></div>
         </div>
       </div>
-
-      <div class="hero-stage" aria-label="Orange glowing orb and project focus">
-        <div class="stage-grid" aria-hidden="true"></div>
-        <div class="stage-index mono-label">FIG. 001 <span>INDEPENDENT PRACTICE</span></div>
-        <div class="orb-halo" aria-hidden="true"></div>
-        <div class="orbit orbit-one" aria-hidden="true"></div>
-        <div class="orbit orbit-two" aria-hidden="true"></div>
-        <div class="orbit orbit-three" aria-hidden="true"></div>
-        <img class="orb-image" src="./orb.svg" alt="" aria-hidden="true">
-        <div class="stage-label stage-label-web"><span>01</span><div><b>WEB EXPERIENCES</b><small>Design / development</small></div></div>
-        <div class="stage-label stage-label-ai"><span>02</span><div><b>APPLIED AI</b><small>Models / systems / tools</small></div></div>
-        <div class="stage-label stage-label-robot"><span>03</span><div><b>ROBOTICS</b><small>Software meets hardware</small></div></div>
-        <div class="stage-bottom mono-label"><span>IDEAS</span><i></i><span>PROTOTYPES</span><i></i><span>REAL THINGS</span></div>
-      </div>
-      <div class="hero-index-bottom mono-label"><span>BASED IN INDIA</span><span>ALWAYS IN PROGRESS / 2026</span></div>
+      <a class="hero-project" href="https://webhorizn.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit the WebHorizn website">
+        <img src="https://webhorizn.vercel.app/og-image.webp" alt="WebHorizn's actual brand artwork" fetchpriority="high" onerror="this.parentElement.classList.add('image-failed')">
+        <div class="hero-project-overlay">
+          <span>Currently co-building</span>
+          <strong>WebHorizn</strong>
+          <span class="project-open">Visit the live website</span>
+        </div>
+      </a>
     </section>
 
-    <aside class="right-stack">
-      <section class="about-card panel" id="about" aria-labelledby="about-card-title">
-        <p class="eyebrow"><span class="section-number">02</span> ABOUT ME</p>
-        <div class="about-card-main">
-          <div class="about-card-copy">
-            <h2 id="about-card-title">Design.<br>Build.<br><em>Experiment.</em></h2>
-            <p>I’m Ayan — a developer and builder exploring the intersection of web experiences, AI, and robotics.</p>
-            <a class="small-link" href="#story">MORE ABOUT ME <span>↗</span></a>
-          </div>
-          <div class="about-orb-art" aria-hidden="true"><span class="about-art-orbit"></span><span class="about-art-light"></span><span class="about-art-grid"></span></div>
-        </div>
-        <div class="leadership-mini">
-          <a href="#lab"><small>FOUNDER</small><strong>Atimos AI<span>.</span></strong><em>AI products & experiments ↗</em></a>
-          <a href="https://webhorizn.vercel.app/" target="_blank" rel="noopener noreferrer"><small>CO-FOUNDER</small><strong>WebHorizn<span>.</span></strong><em>Websites & digital experiences ↗</em></a>
-        </div>
-      </section>
-      <section class="skills-card panel" aria-labelledby="skills-title">
-        <div class="skills-heading"><p class="eyebrow" id="skills-title">SKILLS / WHAT I BUILD</p><span class="mono-label">04 DISCIPLINES</span></div>
-        <div class="skill-list">
-          <div class="skill-item"><span class="skill-icon">⌘</span><span>Web development</span></div>
-          <div class="skill-item"><span class="skill-icon skill-icon-ai">✳</span><span>AI / machine learning</span></div>
-          <div class="skill-item"><span class="skill-icon skill-icon-robot">⌁</span><span>Robotics & hardware</span></div>
-          <div class="skill-item"><span class="skill-icon skill-icon-design">✣</span><span>Creative technology</span></div>
-        </div>
-      </section>
-    </aside>
-    </div>
-
-    <div class="middle-grid">
-    <section class="work-section section-shell" id="work" aria-labelledby="work-title">
+    <section class="work-section" id="work" aria-labelledby="work-title">
       <div class="section-heading">
-        <div><p class="eyebrow"><span class="section-number">03</span> SELECTED WORK / 2025—26</p><h2 id="work-title">Built, shipped<br>and <em>explored.</em></h2></div>
-        <p class="section-aside">A portfolio of websites, AI tools, and hands-on engineering. Each project is labelled honestly so you can tell what’s live and what’s still being developed.</p>
+        <div>
+          <p class="section-kicker">Selected work</p>
+          <h2 id="work-title">Projects I can show you.</h2>
+        </div>
+        <p class="section-intro">A live agency website and a storefront prototype. Open the projects to see the work or inspect the code.</p>
       </div>
 
-      <article class="featured-work reveal">
-        <a class="featured-image" href="https://webhorizn.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit the live WebHorizn website">
-          <img src="https://image.thum.io/get/width/1200/crop/800/noanimate/https://webhorizn.vercel.app/" alt="Live screenshot of the WebHorizn website" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('image-unavailable')">
-          <span class="image-fallback"><span class="fallback-mark">W<span>.</span></span><span class="fallback-name">WEBHORIZN</span><span class="fallback-heading">Built for<br><em>what’s next.</em></span><span class="fallback-foot">WEBSITE / DESIGN / DEVELOPMENT</span></span>
-          <span class="image-overline">FEATURED PROJECT <span>01 / WEB</span></span>
-          <span class="image-cta" aria-hidden="true">↗</span>
+      <article class="work-feature reveal">
+        <a class="webhorizn-image" href="https://webhorizn.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open WebHorizn live website">
+          <img src="https://webhorizn.vercel.app/og-image.webp" alt="WebHorizn brand artwork" loading="lazy" onerror="this.parentElement.classList.add('image-failed')">
+          <span class="image-link-label">Live website</span>
         </a>
-        <div class="featured-details">
-          <div class="project-status-row"><span>01 — AGENCY WEBSITE</span><span class="status status-live"><i></i> LIVE</span></div>
-          <h3>WebHorizn<span>.</span></h3>
-          <p class="project-lede">Co-founding a web agency and building its digital presence.</p>
-          <p class="project-description">A real-world web project focused on a considered visual identity, responsive layouts, clear service communication, and a practical path from first visit to enquiry.</p>
-          <div class="tag-list"><span>Web design</span><span>Frontend</span><span>Responsive UI</span><span>Vercel</span></div>
-          <div class="project-links"><a class="text-link" href="https://webhorizn.vercel.app/" target="_blank" rel="noopener noreferrer">View live website <span>↗</span></a><a class="text-link" href="https://github.com/aart9910-source/WebHorizn" target="_blank" rel="noopener noreferrer">View source code <span>↗</span></a></div>
+        <div class="work-feature-copy">
+          <div class="work-meta"><span>Agency website</span><span class="status status-live">Live</span></div>
+          <h3>WebHorizn</h3>
+          <p class="work-lede">I co-built the website for WebHorizn, a web and digital marketing agency.</p>
+          <p class="work-body">The site explains the services and packages, gives visitors a clear path to make an enquiry, and is deployed on Vercel. The public site and source code are both available to inspect.</p>
+          <div class="tech-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Vercel</span></div>
+          <div class="work-links">
+            <a href="https://webhorizn.vercel.app/" target="_blank" rel="noopener noreferrer">Open live site</a>
+            <a href="https://github.com/aart9910-source/WebHorizn" target="_blank" rel="noopener noreferrer">Source code</a>
+          </div>
         </div>
       </article>
 
-      <div class="project-grid">
-        <article class="project-card reveal">
-          <div class="project-top"><span class="project-category">02 / WEB DEVELOPMENT</span><span class="project-symbol symbol-website">↗</span></div>
-          <h3>Vastu Landing Experience<span>.</span></h3>
-          <p>A service landing page deployed on Netlify, with enquiry information connected to Google Sheets. Designed to make the offer clearer and the enquiry flow easier to use.</p>
-          <div class="tag-list"><span>Landing page</span><span>Netlify</span><span>Google Sheets</span></div>
-          <div class="project-bottom"><span class="status status-live"><i></i> DEPLOYED</span><span class="project-footnote">Public demo link not added yet</span></div>
-        </article>
-
-        <article class="project-card reveal">
-          <div class="project-top"><span class="project-category">03 / AI APPLICATION</span><span class="project-symbol symbol-ai">✳</span></div>
-          <h3>Promptetix<span>.</span></h3>
-          <p>An evolving AI prompt-workflow project under Atimos AI, exploring structured inputs, generation routes, and dataset workflows.</p>
-          <div class="tag-list"><span>Python</span><span>Flask</span><span>LLM workflows</span></div>
-          <div class="project-bottom"><span class="status status-progress"><i></i> IN PROGRESS</span><a href="https://github.com/okojiayan/prompetix-backend" target="_blank" rel="noopener noreferrer">SOURCE ↗</a></div>
-        </article>
-
-        <article class="project-card reveal">
-          <div class="project-top"><span class="project-category">04 / DEVELOPER TOOL</span><span class="project-symbol symbol-tool">{ }</span></div>
-          <h3>API Key Health Doctor<span>.</span></h3>
-          <p>A developer utility prototype exploring provider detection, API checks, custom REST endpoints, and clearer explanations of common failures.</p>
-          <div class="tag-list"><span>Next.js</span><span>React</span><span>REST APIs</span></div>
-          <div class="project-bottom"><span class="status status-prototype"><i></i> PROTOTYPE</span><a href="https://github.com/okojiayan/Api-Key-Tester" target="_blank" rel="noopener noreferrer">SOURCE ↗</a></div>
-        </article>
-
-        <article class="project-card project-card-feature reveal">
-          <div class="project-top"><span class="project-category">05 / ROBOTICS & HARDWARE</span><span class="project-symbol symbol-robot">⌁</span></div>
-          <h3>Doctor Robot<span>.</span></h3>
-          <p>A physical robotics build exploring Arduino-based control, motor-driver integration, power planning, and the process of testing real hardware.</p>
-          <div class="tag-list"><span>Arduino UNO</span><span>C++</span><span>L298N</span><span>Motors</span></div>
-          <div class="project-bottom"><span class="status status-prototype"><i></i> BUILD / PROTOTYPE</span><span class="project-footnote">Hardware project</span></div>
-        </article>
-      </div>
-      <div class="work-end"><span class="mono-label">MORE CODE / NOTES / BUILDS</span><a class="text-link" href="https://github.com/okojiayan" target="_blank" rel="noopener noreferrer">Explore my GitHub <span>↗</span></a></div>
+      <article class="work-secondary reveal">
+        <a class="nutrapop-image" href="https://github.com/aart9910-source/Nutrapop" target="_blank" rel="noopener noreferrer" aria-label="Open NutraPop source repository">
+          <img src="https://raw.githubusercontent.com/aart9910-source/Nutrapop/main/public/images/hero-makhana.jpg" alt="Product photography from the NutraPop storefront project" loading="lazy" onerror="this.parentElement.classList.add('image-failed')">
+        </a>
+        <div class="work-secondary-copy">
+          <div class="work-meta"><span>Storefront prototype</span><span class="status status-progress">Frontend demo</span></div>
+          <h3>NutraPop</h3>
+          <p>I built a multi-page storefront demo for a roasted-makhana brand, including flavour pages, product variants, a cart, and a checkout flow.</p>
+          <p class="work-body">This release is frontend-only; it does not include a connected payment gateway, backend, or database.</p>
+          <div class="tech-list"><span>Next.js</span><span>TypeScript</span><span>Tailwind CSS</span></div>
+          <div class="work-links"><a href="https://github.com/aart9910-source/Nutrapop" target="_blank" rel="noopener noreferrer">Inspect the code</a></div>
+        </div>
+      </article>
     </section>
 
-    <section class="lab-section" id="lab" aria-labelledby="lab-title">
-      <div class="section-shell lab-inner">
-        <div class="section-heading">
-          <div><p class="eyebrow"><span class="section-number">04</span> AI EXPERIMENTS / RESEARCH</p><h2 id="lab-title">The lab is where<br><em>ideas evolve.</em></h2></div>
-          <p class="section-aside">Not every idea is a finished product. These are the experiments, systems questions, and product directions I’m actively exploring.</p>
+    <section class="experiments-section" id="experiments" aria-labelledby="experiments-title">
+      <div class="experiments-heading">
+        <div>
+          <p class="section-kicker">Work in progress</p>
+          <h2 id="experiments-title">Experiments</h2>
         </div>
-        <div class="lab-list">
-          <article class="lab-row reveal"><span class="lab-id">A—01</span><div class="lab-icon lab-icon-senura">S<span>.</span></div><div class="lab-content"><p class="mono-label">MODEL RESEARCH</p><h3>Senura AI</h3><p>Dataset preparation and compact language-model research, including resource constraints, quantisation choices, and the importance of evaluating a model before claiming results.</p><div class="tag-list"><span>Python</span><span>Kaggle</span><span>Datasets</span></div></div><span class="lab-state">IN RESEARCH</span></article>
-          <article class="lab-row reveal"><span class="lab-id">A—02</span><div class="lab-icon lab-icon-agent">↗</div><div class="lab-content"><p class="mono-label">AGENT SYSTEMS</p><h3>Agent reliability</h3><p>Exploring subagents, task graphs, tool use, and postcondition checks: how can an AI system verify that a task actually succeeded instead of just saying it did?</p><div class="tag-list"><span>Tool use</span><span>Verification</span><span>Workflow design</span></div></div><span class="lab-state">ONGOING NOTES</span></article>
-          <article class="lab-row reveal"><span class="lab-id">A—03</span><div class="lab-icon lab-icon-helios">✳</div><div class="lab-content"><p class="mono-label">PRODUCT CONCEPTS</p><h3>HELIOS + Atimos Flow</h3><p>A personal, local-first AI companion concept centred on memory, visible tasks, useful tool access, and explicit confirmation before consequential actions. Atimos Flow explores a calmer human–AI interface language.</p><div class="tag-list"><span>Local-first AI</span><span>Human–AI interaction</span><span>Design systems</span></div></div><span class="lab-state">CONCEPT</span></article>
-        </div>
-        <div class="lab-principle"><span>✳</span><p><strong>Show the real state.</strong> Shipped work, prototypes, and research are described differently on purpose.</p></div>
+        <p>Smaller builds and ideas I’m still working through.</p>
+      </div>
+      <div class="experiment-list">
+        <div class="experiment-row"><h3>API Key Health Doctor</h3><p>A tool prototype for checking API keys and translating common provider errors.</p><span class="status status-prototype">Prototype</span><a href="https://github.com/okojiayan/Api-Key-Tester" target="_blank" rel="noopener noreferrer">Source</a></div>
+        <div class="experiment-row"><h3>Promptetix</h3><p>A prompt-workflow project with a Python backend and dataset utilities.</p><span class="status status-progress">In progress</span><a href="https://github.com/okojiayan/prompetix-backend" target="_blank" rel="noopener noreferrer">Source</a></div>
+        <div class="experiment-row"><h3>Vastu landing page</h3><p>A deployed service landing page with enquiry details connected to Google Sheets.</p><span class="status status-live">Deployed</span><span class="no-link"> </span></div>
+        <div class="experiment-row"><h3>Doctor Robot</h3><p>An Arduino-based school robotics build. A real build photo and confirmed working/not-yet-working details still need to be added.</p><span class="status status-prototype">Prototype</span><span class="no-link"> </span></div>
+        <div class="experiment-row"><h3>Senura AI</h3><p>A compact-model and dataset experiment.</p><span class="status status-progress">In progress</span><span class="no-link"> </span></div>
+        <div class="experiment-row"><h3>Agent reliability</h3><p>Notes and tests around tool-use checks and verifying task outcomes.</p><span class="status status-concept">Exploration</span><span class="no-link"> </span></div>
+        <div class="experiment-row"><h3>HELIOS / Atimos Flow</h3><p>Concepts for a local-first assistant and a calmer human–AI interface.</p><span class="status status-concept">Concept</span><span class="no-link"> </span></div>
       </div>
     </section>
 
-    </div>
-
-    <section class="about-section section-shell" id="story" aria-labelledby="about-title">
-      <div class="section-heading">
-        <div><p class="eyebrow"><span class="section-number">05</span> ABOUT / TOOLKIT</p><h2 id="about-title">Curiosity first.<br><em>Build what matters.</em></h2></div>
-        <p class="section-aside">I learn by building and move across disciplines to make ideas tangible — from responsive pages to AI workflows and physical electronics.</p>
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="about-copy">
+        <p class="section-kicker">About</p>
+        <h2 id="about-title">A student developer learning by making things.</h2>
       </div>
-      <div class="about-grid">
-        <div class="about-story reveal">
-          <p class="story-lede">I’m Ayan — a student developer, Founder at Atimos AI, and Co-founder of WebHorizn.</p>
-          <p>I enjoy making the web more useful, connecting AI tools into practical workflows, and getting software to interact with the physical world. I care about thoughtful interfaces, learning in public, and describing progress honestly.</p>
-          <div class="leadership"><div><span class="mono-label">FOUNDER</span><strong>Atimos AI</strong></div><div><span class="mono-label">CO-FOUNDER</span><strong>WebHorizn</strong></div></div>
-          <a class="text-link" href="https://github.com/okojiayan" target="_blank" rel="noopener noreferrer">More on GitHub <span>↗</span></a>
-        </div>
-        <div class="toolkit">
-          <div class="toolkit-row"><span class="tool-number">01</span><div><h3>Web & product</h3><p>HTML, CSS, JavaScript, React, Next.js, TypeScript, Vercel, Netlify</p></div></div>
-          <div class="toolkit-row"><span class="tool-number">02</span><div><h3>AI & backend</h3><p>Python, Flask, LLM APIs, Gemini, Claude, NVIDIA NIM, REST APIs, Kaggle</p></div></div>
-          <div class="toolkit-row"><span class="tool-number">03</span><div><h3>Hardware & creative tech</h3><p>Arduino, ESP32, Raspberry Pi, C++, motor control, Figma</p></div></div>
-          <div class="toolkit-row"><span class="tool-number">04</span><div><h3>Learning & credentials</h3><p>Microsoft Power BI Data Analyst, Microsoft PowerPoint Associate, Microsoft Excel Associate, B10X AI tools workshop.</p><small>Credentials listed as supplied; verification links can be added.</small></div></div>
-        </div>
+      <div class="about-body">
+        <p>I’m Ayan, a student developer from India. I started with website projects and school robotics, then began exploring AI tools and workflows.</p>
+        <p>I’m currently learning more about full-stack development and practical AI while co-building WebHorizn and working on Atimos AI. I’m proud to have helped get the WebHorizn website live.</p>
+        <div class="about-roles"><a href="https://webhorizn.vercel.app/" target="_blank" rel="noopener noreferrer">Co-founder, WebHorizn</a><a href="#experiments">Building Atimos AI</a></div>
       </div>
     </section>
 
     <section class="contact-section" id="contact" aria-labelledby="contact-title">
-      <div class="contact-orb" aria-hidden="true"></div>
-      <div class="contact-inner section-shell">
-        <div><p class="eyebrow"><span class="section-number">06</span> LET’S TALK</p><h2 id="contact-title">Have an idea?<br><em>Let’s build it.</em></h2></div>
-        <div class="contact-details"><p>Have a website to build, an AI idea to test, or a robotics problem to solve? I’m open to meaningful collaborations, feedback, and interesting challenges.</p><a class="button button-primary" href="https://github.com/okojiayan" target="_blank" rel="noopener noreferrer">Message me on GitHub <span>↗</span></a><div class="contact-links"><a href="https://github.com/okojiayan" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://github.com/aart9910-source/Portfolio" target="_blank" rel="noopener noreferrer">Portfolio source ↗</a><a href="https://webhorizn.vercel.app/" target="_blank" rel="noopener noreferrer">WebHorizn ↗</a></div></div>
+      <div>
+        <p class="section-kicker">Contact</p>
+        <h2 id="contact-title">Get in touch.</h2>
+      </div>
+      <div class="contact-copy">
+        <p>For project questions or collaboration, reach me through GitHub.</p>
+        <a class="contact-link" href="https://github.com/okojiayan" target="_blank" rel="noopener noreferrer">GitHub profile</a>
+        <a class="contact-link" href="https://webhorizn.vercel.app/" target="_blank" rel="noopener noreferrer">WebHorizn website</a>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer"><a class="footer-brand" href="#top">A<span>.</span> <small>AYAN / CREATIVE DEVELOPER</small></a><span class="footer-center">FOUNDER — ATIMOS AI&nbsp;&nbsp; / &nbsp;&nbsp;CO-FOUNDER — WEBHORIZN</span><span class="footer-copy">© <span id="year">2026</span> AYAN. BUILT THROUGH ITERATION.</span></footer>
+  <footer class="site-footer">
+    <a class="footer-wordmark" href="#top">ayan<span>.</span></a>
+    <p>Student developer · Co-founder of WebHorizn · Building Atimos AI</p>
+    <a href="https://github.com/okojiayan" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </footer>
 </body>
 </html>
