@@ -4,5 +4,7 @@ out
 build
 .DS_Store
 *.log
+*.tsbuildinfo
+.vercel
 .env*
 !.env.example
