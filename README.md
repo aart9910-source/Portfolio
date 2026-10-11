@@ -1,45 +1,33 @@
-# Ayan — personal portfolio
+# Ayan — Portfolio / Hero build
 
-A responsive, project-led portfolio for Ayan, a student developer from India.
+This repository is currently being built section by section. The current review version contains **only the hero section** and its navigation.
 
-## Layout
+## Hero features
 
-- Short hero with one primary action and a GitHub link
-- Selected projects: WebHorizn and NutraPop
-- Compact experiment list with statuses and public source links where available
-- Short About section and simple Contact area
-- Dark warm-neutral palette with one orange accent and two type families
-- Responsive navigation, visible keyboard focus, reduced-motion support, and subtle reveal transitions
+- Oversized “Creative developer building what’s next” headline with warm ivory and molten orange
+- Interactive SVG orb and orbital geometry
+- Pointer-responsive parallax on the orb, orbit rings, and project panels
+- Subtle canvas network/particle field behind the main visual
+- Floating panels linking to the live WebHorizn website and API Key Health Doctor source
+- A robotics illustration as visual context; it is not presented as a photograph of Ayan’s physical build
+- Mobile navigation, keyboard support, visible focus, reduced-motion support, and responsive layouts
 
-## Selected work
+The WebHorizn panel uses its live site inside a clipped iframe, with its public brand artwork available as a fallback.
 
-**WebHorizn** — website for the web and digital-marketing agency Ayan co-founded. The portfolio embeds a non-interactive view of the live website as a real preview, with a direct link to open it and a link to its source repository.
-
-**NutraPop** — frontend storefront demo with flavour pages, product variants, a cart, and a demo checkout. Backend, payment processing, and a database are not connected in this release.
-
-Smaller work is listed in the Experiments section with status text and source links only where a public repository exists.
-
-## Visual assets and remaining content
-
-The WebHorizn preview is rendered live from its public site, with official brand artwork as a fallback. NutraPop uses an existing product photograph from its public repository. The page does not use a third-party website screenshot service.
-
-Personal photo, Doctor Robot build photo/video, exact Doctor Robot working/not-yet-working details, and a real screenshot of the completed portfolio were not supplied. Those assets and outcome details have not been invented. Because there is no screenshot of the finished portfolio yet, no Open Graph screenshot image is configured.
-
-The two project images currently load from their original public URLs rather than local files under `public/`.
-
-## Live site
+## Live review
 
 https://ayan-portfolio-lab.vercel.app/
 
-## Run locally
+## Local preview
 
-Open `index.html` in a browser or serve this directory with any static file server. No build step is needed.
+Open `index.html` in a browser or serve this folder with any static server. There is no build step.
 
-## Files
+## Source files
 
-- `index.html` — content, links, embed preview, and metadata
-- `styles.css` — responsive layout and visual styling
-- `app.js` — accessible mobile navigation, scroll progress, and subtle reveal transitions
+- `index.html` — hero content and semantic structure
+- `styles.css` — layout, visual styling, responsive breakpoints, and animation
+- `app.js` — pointer interaction, particle field, and mobile navigation
+- `orb.svg` — custom vector orb art
 - `favicon.svg` — browser icon
 
-Automatic redeployments from Git pushes are not connected to Vercel at this time; production is published from a source snapshot.
+Only this section is included until the hero is approved.
