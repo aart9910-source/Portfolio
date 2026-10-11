@@ -1,33 +1,42 @@
-# Ayan — Portfolio / Hero build
+# Ayan — Creative Developer Portfolio
 
-This repository is currently being built section by section. The current review version contains **only the hero section** and its navigation.
+A Next.js portfolio built around a cinematic charcoal / ivory / molten-orange art direction, a custom real-time GLSL orb, responsive project mockups, and GSAP scroll reveals.
 
-## Hero features
+## Stack
 
-- Oversized “Creative developer building what’s next” headline with warm ivory and molten orange
-- Interactive SVG orb and orbital geometry
-- Pointer-responsive parallax on the orb, orbit rings, and project panels
-- Subtle canvas network/particle field behind the main visual
-- Floating panels linking to the live WebHorizn website and API Key Health Doctor source
-- A robotics illustration as visual context; it is not presented as a photograph of Ayan’s physical build
-- Mobile navigation, keyboard support, visible focus, reduced-motion support, and responsive layouts
+- Next.js App Router + TypeScript
+- React Three Fiber + Three.js for the animated molten-glass hero orb
+- Custom GLSL shader for fluid, ember-like surface patterns
+- GSAP + ScrollTrigger for section entrances and hero parallax through scroll
+- Custom CSS design system; no UI component framework
 
-The WebHorizn panel uses its live site inside a clipped iframe, with its public brand artwork available as a fallback.
+## Run locally
 
-## Live review
+```bash
+npm install
+npm run dev
+```
 
-https://ayan-portfolio-lab.vercel.app/
+Open `http://localhost:3000`.
 
-## Local preview
+## Production build
 
-Open `index.html` in a browser or serve this folder with any static server. There is no build step.
+```bash
+npm run build
+npm start
+```
 
-## Source files
+## Sections included
 
-- `index.html` — hero content and semantic structure
-- `styles.css` — layout, visual styling, responsive breakpoints, and animation
-- `app.js` — pointer interaction, particle field, and mobile navigation
-- `orb.svg` — custom vector orb art
-- `favicon.svg` — browser icon
+1. Cinematic hero with interactive 3D orb and three project panels
+2. About and skills
+3. Selected work
+4. AI / creative experiments
+5. Contact CTA
+6. Footer
 
-Only this section is included until the hero is approved.
+## Notes
+
+- The project panels are art-directed HTML/CSS compositions rather than cross-origin iframes, keeping the hero fast and visually controlled.
+- Project claims and links are intentionally conservative; replace or enrich them with confirmed details and real case studies as the portfolio evolves.
+- The hero 3D scene is lazy-loaded client-side and has a CSS fallback. Motion is disabled or reduced when the visitor requests reduced motion.
