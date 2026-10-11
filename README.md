@@ -13,6 +13,12 @@ The site is intentionally built as a lightweight static experience: semantic HTM
 - Scroll reveals, progress indicator, restrained pointer parallax, and a mobile navigation menu.
 - Responsive layouts and reduced-motion support.
 
+## Live site
+
+Production URL: https://ayan-portfolio-lab.vercel.app/
+
+The current Vercel release was published from the repository source as a snapshot. Automatic deployments on every GitHub push are not connected yet; connect this repository in Vercel's Git settings to enable that workflow.
+
 ## Run locally
 
 Open \`index.html\` in a browser, or start any simple static file server in the repository root.
