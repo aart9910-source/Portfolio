@@ -1,5 +1,6 @@
 (function () {
   'use strict';
+  document.documentElement.classList.add('js-enabled');
 
   var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var progressBar = document.getElementById('progress-bar');
