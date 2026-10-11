@@ -1,46 +1,42 @@
 # Ayan — Creative Developer
 
-A responsive, cinematic personal portfolio for Ayan’s work across web development, applied AI, product experiments, and robotics.
+A responsive personal portfolio for web development, applied AI, and robotics.
 
-## Visual direction
+## Design
 
-- Near-black canvas, warm ivory typography, molten-orange accents, fine borders, and generous editorial type.
-- A hero composition with a CSS-built orange orb, orbit lines, and floating project panels.
-- Two-column about and skills area, project showcase, AI experiments, founder/co-founder roles, toolkit, and contact section.
-- CSS-crafted artwork for featured projects and experiments; no fabricated client screenshots or made-up project metrics.
-- Responsive mobile navigation, reveal transitions, scroll progress, reduced-motion support, and keyboard-friendly menu controls.
+A dark editorial art direction with warm ivory typography, restrained molten-orange accents, thin borders, an animated CSS orb in the hero, and a project-first layout. The site uses semantic HTML, hand-written CSS, and vanilla JavaScript; there is no framework runtime or build step.
 
-## Roles and featured work
+The WebHorizn project card loads a live website screenshot via a public screenshot endpoint and falls back to a designed title card if the image cannot be loaded. Other projects are presented as clear project write-ups rather than fabricated product screenshots.
+
+## Roles and projects
 
 - **Founder — Atimos AI**
 - **Co-founder — WebHorizn**
-- **WebHorizn:** live website and source repository.
-- **Vastu Landing Experience:** deployed landing page with Google Sheets enquiry workflow; public demo URL can be added when confirmed.
-- **Doctor Robot:** Arduino-based robotics prototype.
-- **Promptetix:** evolving prompt workflow project under Atimos AI.
+- **WebHorizn:** live agency website and source repository.
+- **Vastu Landing Experience:** deployed Netlify landing page with Google Sheets enquiry workflow; canonical public demo URL not supplied.
+- **Promptetix:** AI prompt-workflow project, in progress.
 - **API Key Health Doctor:** developer utility prototype.
-- **AI experiment notes:** Senura AI research, agent reliability, creative coding, and HELIOS / Atimos Flow product concepts.
+- **Doctor Robot:** Arduino-based robotics build/prototype.
+- **Senura AI:** dataset/model research.
+- **Agent reliability:** workflow design and outcome-verification explorations.
+- **HELIOS + Atimos Flow:** product and human–AI interface concepts.
 
-Statuses intentionally distinguish live work from prototypes and research. The page avoids inflated experience numbers and only links directly to URLs currently available.
+Project states are intentionally distinguished. No fictional client metrics, fake contact address, or unsupported shipped-product claims are included.
 
 ## Live site
 
-Production URL: https://ayan-portfolio-lab.vercel.app/
-
-The current production release is published from a source snapshot. Automatic deployment on each GitHub push is not connected yet; connect this repository under Vercel project Git settings to enable that workflow.
+https://ayan-portfolio-lab.vercel.app/
 
 ## Run locally
 
-Open index.html in a browser or serve the repository root through any static server. No build step is required.
+Open index.html in a browser, or serve the repository root using any static file server. No build command is needed.
 
 ## Files
 
-- index.html — page structure, content, project details, and links
-- styles.css — visual system, artwork, responsive rules, animation, and reduced-motion fallback
-- app.js — mobile navigation, scroll progress, reveal observer, and pointer response
-- favicon.svg — tab icon
-- og-cover.svg — social share artwork
+- index.html — semantic page structure, project content, and real links
+- styles.css — design system, layout, visual art, and responsive breakpoints
+- app.js — scroll progress, reveal transitions, responsive menu, reduced-motion handling
+- favicon.svg — browser icon
+- og-cover.svg — social share cover
 
-## Content maintenance
-
-Update project states when prototypes ship, and replace broad GitHub links with canonical live demos when those URLs are available. Certificate names are listed as supplied and can be supplemented with verification links.
+Automatic deployment from GitHub pushes is not currently connected; the Vercel site is published from a source snapshot.
