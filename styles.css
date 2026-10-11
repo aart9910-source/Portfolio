@@ -310,8 +310,9 @@ h1,h2,h3,p{overflow-wrap:break-word}
 .footer-links a{color:var(--muted);font-size:10px;transition:color .2s}
 .footer-links a:hover{color:var(--orange-hi)}
 .footer-year{font-size:8px;white-space:nowrap}
-.reveal{opacity:0;transform:translateY(26px);transition:opacity .75s var(--ease),transform .75s var(--ease);transition-delay:var(--delay,0ms)}
-.reveal.is-visible{opacity:1;transform:translateY(0)}
+.reveal{opacity:1;transform:none;transition:opacity .75s var(--ease),transform .75s var(--ease);transition-delay:var(--delay,0ms)}
+.js-enabled .reveal{opacity:0;transform:translateY(26px)}
+.js-enabled .reveal.is-visible{opacity:1;transform:translateY(0)}
 @keyframes orbFloat{0%,100%{transform:translateY(0) rotate(-24deg) scale(1)}50%{transform:translateY(-11px) rotate(-18deg) scale(1.015)}}
 @keyframes orbitSpin{to{rotate:360deg}}
 @keyframes auraBreathe{0%,100%{opacity:.65;scale:1}50%{opacity:1;scale:1.08}}
