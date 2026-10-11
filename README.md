@@ -1,35 +1,41 @@
-# Ayan — Creative Developer
+# Ayan — personal portfolio
 
-A responsive personal portfolio for web development, applied AI, and robotics, styled around the supplied dark editorial / molten-orange reference.
+A responsive, project-led portfolio for Ayan, a student developer from India.
 
-## Experience
+## Layout
 
-- Compact hero and about/skills bento layout
-- Bespoke SVG molten-glass orb, orbit lines, and subtle animation
-- Real link to the live WebHorizn website and public source repository
-- Featured projects and clear live / deployed / prototype / research statuses
-- Founder — Atimos AI
-- Co-founder — WebHorizn
-- Website work, Promptetix, API Key Health Doctor, Doctor Robot, Senura AI, agent reliability, HELIOS and Atimos Flow
-- Toolkit and credentials, responsive navigation, reduced-motion support, and scroll progress
+- Short hero with one primary action and a GitHub link
+- Two selected projects: WebHorizn and NutraPop
+- Compact list of smaller experiments
+- Short About section and simple Contact area
+- Dark warm-neutral palette with one orange accent and two type families
+- Responsive navigation, visible keyboard focus, reduced-motion support, and subtle reveal transitions
 
-The WebHorizn visual attempts to load a live browser screenshot through an image screenshot endpoint; a fallback graphic appears if that service is unavailable. Other items are written as project descriptions rather than invented application screenshots.
+## Selected work
 
-## Live website
+**WebHorizn** — website co-built for the web and digital-marketing agency. The live website and source repository are linked on the site.
+
+**NutraPop** — frontend storefront demo with flavour pages, product variants, a cart, and a demo checkout. Backend, payments, and database are not connected in this release.
+
+Smaller work is listed in the Experiments section with status text and a source link only where a public repository exists.
+
+## Visual assets
+
+The WebHorizn visual uses the existing public brand artwork from the live project. NutraPop uses an existing product photograph from its public repository. No third-party website-screenshot service is used. These images are still loaded from their original public URLs; screenshots and the robot build photo were not supplied to copy into this repository's `public` directory.
+
+## Live site
 
 https://ayan-portfolio-lab.vercel.app/
 
-Automatic deployment on Git pushes is not connected currently; the production deployment is published from a source snapshot.
-
 ## Run locally
 
-Open `index.html` in a browser or serve the repository root with a static server. No build command is needed.
+Open `index.html` in a browser or serve this directory with any static file server. No build step is needed.
 
 ## Files
 
-- `index.html` — structure, links, and project content
-- `styles.css` — layout, responsive breakpoints, and visual style
-- `app.js` — mobile navigation, scroll progress, reveal animations, and pointer motion
-- `orb.svg` — bespoke vector hero art
+- `index.html` — content, project links, and metadata
+- `styles.css` — responsive layout and visual styling
+- `app.js` — mobile navigation, scroll progress, and subtle reveal transitions
 - `favicon.svg` — browser icon
-- `og-cover.svg` — social sharing cover
+
+A real screenshot of the finished portfolio is still needed for a social-sharing image, so no fabricated Open Graph screenshot is configured yet. Automatic redeployments from Git pushes are not connected to Vercel at this time.
