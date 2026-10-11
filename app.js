@@ -6,15 +6,15 @@
   var year = document.getElementById('year');
   var menuToggle = document.querySelector('.menu-toggle');
   var mobileMenu = document.getElementById('mobile-menu');
-  var heroVisual = document.querySelector('.hero-visual');
+  var heroStage = document.querySelector('.hero-stage');
   var scrollTicking = false;
   if (year) year.textContent = String(new Date().getFullYear());
 
   function updateScrollProgress() {
     if (!progressBar) return;
-    var scrollable = document.documentElement.scrollHeight - window.innerHeight;
-    var progress = scrollable > 0 ? window.scrollY / scrollable : 0;
-    progressBar.style.transform = 'scaleX(' + Math.min(1, Math.max(0, progress)) + ')';
+    var distance = document.documentElement.scrollHeight - window.innerHeight;
+    var percent = distance > 0 ? window.scrollY / distance : 0;
+    progressBar.style.transform = 'scaleX(' + Math.min(1, Math.max(0, percent)) + ')';
     scrollTicking = false;
   }
   window.addEventListener('scroll', function () {
@@ -35,10 +35,10 @@
           observer.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.1, rootMargin: '0px 0px -25px 0px' });
+    }, { threshold: 0.1, rootMargin: '0px 0px -24px 0px' });
     revealItems.forEach(function (item, index) {
       item.style.setProperty('--delay', Math.min(index % 4, 3) * 55 + 'ms');
-      item.style.transition = 'opacity .55s ease var(--delay), transform .55s cubic-bezier(.2,.7,.2,1) var(--delay)';
+      item.style.transition = 'opacity .5s ease var(--delay), transform .5s cubic-bezier(.2,.7,.2,1) var(--delay)';
       revealObserver.observe(item);
     });
   } else {
@@ -72,26 +72,26 @@
       if (event.key === 'Escape' && menuToggle.getAttribute('aria-expanded') === 'true') closeMenu(true);
     });
     window.addEventListener('resize', function () {
-      if (window.innerWidth > 1000) closeMenu(false);
+      if (window.innerWidth > 850) closeMenu(false);
     }, { passive: true });
   }
 
-  if (heroVisual && !reduceMotion && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+  if (heroStage && !reduceMotion && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
     var frame = 0;
-    heroVisual.addEventListener('pointermove', function (event) {
-      var bounds = heroVisual.getBoundingClientRect();
-      var x = (event.clientX - bounds.left) / bounds.width - 0.5;
-      var y = (event.clientY - bounds.top) / bounds.height - 0.5;
+    heroStage.addEventListener('pointermove', function (event) {
+      var box = heroStage.getBoundingClientRect();
+      var x = (event.clientX - box.left) / box.width - 0.5;
+      var y = (event.clientY - box.top) / box.height - 0.5;
       if (frame) window.cancelAnimationFrame(frame);
       frame = window.requestAnimationFrame(function () {
-        heroVisual.style.setProperty('--pointer-x', (x * 7).toFixed(2) + 'px');
-        heroVisual.style.setProperty('--pointer-y', (y * 7).toFixed(2) + 'px');
+        heroStage.style.setProperty('--pointer-x', (x * 5).toFixed(2) + 'px');
+        heroStage.style.setProperty('--pointer-y', (y * 5).toFixed(2) + 'px');
       });
     });
-    heroVisual.addEventListener('pointerleave', function () {
+    heroStage.addEventListener('pointerleave', function () {
       if (frame) window.cancelAnimationFrame(frame);
-      heroVisual.style.setProperty('--pointer-x', '0px');
-      heroVisual.style.setProperty('--pointer-y', '0px');
+      heroStage.style.setProperty('--pointer-x', '0px');
+      heroStage.style.setProperty('--pointer-y', '0px');
     });
   }
 })();
