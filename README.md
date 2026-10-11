@@ -1,42 +1,35 @@
 # Ayan — Creative Developer
 
-A responsive personal portfolio for web development, applied AI, and robotics.
+A responsive personal portfolio for web development, applied AI, and robotics, styled around the supplied dark editorial / molten-orange reference.
 
-## Design
+## Experience
 
-A dark editorial art direction with warm ivory typography, restrained molten-orange accents, thin borders, an animated CSS orb in the hero, and a project-first layout. The site uses semantic HTML, hand-written CSS, and vanilla JavaScript; there is no framework runtime or build step.
+- Compact hero and about/skills bento layout
+- Bespoke SVG molten-glass orb, orbit lines, and subtle animation
+- Real link to the live WebHorizn website and public source repository
+- Featured projects and clear live / deployed / prototype / research statuses
+- Founder — Atimos AI
+- Co-founder — WebHorizn
+- Website work, Promptetix, API Key Health Doctor, Doctor Robot, Senura AI, agent reliability, HELIOS and Atimos Flow
+- Toolkit and credentials, responsive navigation, reduced-motion support, and scroll progress
 
-The WebHorizn project card loads a live website screenshot via a public screenshot endpoint and falls back to a designed title card if the image cannot be loaded. Other projects are presented as clear project write-ups rather than fabricated product screenshots.
+The WebHorizn visual attempts to load a live browser screenshot through an image screenshot endpoint; a fallback graphic appears if that service is unavailable. Other items are written as project descriptions rather than invented application screenshots.
 
-## Roles and projects
-
-- **Founder — Atimos AI**
-- **Co-founder — WebHorizn**
-- **WebHorizn:** live agency website and source repository.
-- **Vastu Landing Experience:** deployed Netlify landing page with Google Sheets enquiry workflow; canonical public demo URL not supplied.
-- **Promptetix:** AI prompt-workflow project, in progress.
-- **API Key Health Doctor:** developer utility prototype.
-- **Doctor Robot:** Arduino-based robotics build/prototype.
-- **Senura AI:** dataset/model research.
-- **Agent reliability:** workflow design and outcome-verification explorations.
-- **HELIOS + Atimos Flow:** product and human–AI interface concepts.
-
-Project states are intentionally distinguished. No fictional client metrics, fake contact address, or unsupported shipped-product claims are included.
-
-## Live site
+## Live website
 
 https://ayan-portfolio-lab.vercel.app/
 
+Automatic deployment on Git pushes is not connected currently; the production deployment is published from a source snapshot.
+
 ## Run locally
 
-Open index.html in a browser, or serve the repository root using any static file server. No build command is needed.
+Open `index.html` in a browser or serve the repository root with a static server. No build command is needed.
 
 ## Files
 
-- index.html — semantic page structure, project content, and real links
-- styles.css — design system, layout, visual art, and responsive breakpoints
-- app.js — scroll progress, reveal transitions, responsive menu, reduced-motion handling
-- favicon.svg — browser icon
-- og-cover.svg — social share cover
-
-Automatic deployment from GitHub pushes is not currently connected; the Vercel site is published from a source snapshot.
+- `index.html` — structure, links, and project content
+- `styles.css` — layout, responsive breakpoints, and visual style
+- `app.js` — mobile navigation, scroll progress, reveal animations, and pointer motion
+- `orb.svg` — bespoke vector hero art
+- `favicon.svg` — browser icon
+- `og-cover.svg` — social sharing cover
