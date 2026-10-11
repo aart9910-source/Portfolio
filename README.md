@@ -1,46 +1,46 @@
-# Ayan — Independent Lab
+# Ayan — Creative Developer
 
-A cinematic, responsive personal portfolio for work across web development, applied AI, agent workflows, and robotics.
-
-The site is intentionally built as a lightweight static experience: semantic HTML, hand-written CSS, and plain JavaScript. No framework runtime or build step is required.
+A responsive, cinematic personal portfolio for Ayan’s work across web development, applied AI, product experiments, and robotics.
 
 ## Visual direction
 
-- Near-black surfaces, warm ivory typography, and vivid orange accents.
-- Editorial typography with Fraunces, DM Sans, and DM Mono.
-- A CSS-built animated 3D-inspired orb, orbit lines, and floating signal panels.
-- Bespoke CSS illustrations for project case studies rather than fake client screenshots.
-- Scroll reveals, progress indicator, restrained pointer parallax, and a mobile navigation menu.
-- Responsive layouts and reduced-motion support.
+- Near-black canvas, warm ivory typography, molten-orange accents, fine borders, and generous editorial type.
+- A hero composition with a CSS-built orange orb, orbit lines, and floating project panels.
+- Two-column about and skills area, project showcase, AI experiments, founder/co-founder roles, toolkit, and contact section.
+- CSS-crafted artwork for featured projects and experiments; no fabricated client screenshots or made-up project metrics.
+- Responsive mobile navigation, reveal transitions, scroll progress, reduced-motion support, and keyboard-friendly menu controls.
+
+## Roles and featured work
+
+- **Founder — Atimos AI**
+- **Co-founder — WebHorizn**
+- **WebHorizn:** live website and source repository.
+- **Vastu Landing Experience:** deployed landing page with Google Sheets enquiry workflow; public demo URL can be added when confirmed.
+- **Doctor Robot:** Arduino-based robotics prototype.
+- **Promptetix:** evolving prompt workflow project under Atimos AI.
+- **API Key Health Doctor:** developer utility prototype.
+- **AI experiment notes:** Senura AI research, agent reliability, creative coding, and HELIOS / Atimos Flow product concepts.
+
+Statuses intentionally distinguish live work from prototypes and research. The page avoids inflated experience numbers and only links directly to URLs currently available.
 
 ## Live site
 
 Production URL: https://ayan-portfolio-lab.vercel.app/
 
-The current Vercel release was published from the repository source as a snapshot. Automatic deployments on every GitHub push are not connected yet; connect this repository in Vercel's Git settings to enable that workflow.
+The current production release is published from a source snapshot. Automatic deployment on each GitHub push is not connected yet; connect this repository under Vercel project Git settings to enable that workflow.
 
 ## Run locally
 
-Open \`index.html\` in a browser, or start any simple static file server in the repository root.
-
-## Deploy
-
-This is a static site. It can be deployed to Vercel, Netlify, GitHub Pages, or any host that serves static files. Keep the root directory as the project root; no build command is needed.
-
-## Portfolio content
-
-Featured work includes WebHorizn, Promptetix by Atimos AI, API Key Health Doctor, a Vastu landing-page workflow, and an Arduino-based Doctor Robot project. The lab notes cover Senura AI research, agent reliability, and HELIOS / Atimos Flow product concepts.
-
-Project stages are deliberately labelled. A live website link is only shown where a public URL is known; ideas and experiments are not presented as finished products. The Vastu public demo URL can be added to \`index.html\` once the canonical URL is confirmed.
-
-## Before adding more contact methods
-
-The site links to GitHub rather than publishing a placeholder email address or pretending a form has a configured backend. When a public email or real contact endpoint is ready, update the contact section in \`index.html\`.
+Open index.html in a browser or serve the repository root through any static server. No build step is required.
 
 ## Files
 
-- \`index.html\` — page structure and project content
-- \`styles.css\` — visual system, animation, and responsive layouts
-- \`app.js\` — menu, scroll progress, reveal observer, and pointer response
-- \`favicon.svg\` — tab icon
-- \`og-cover.svg\` — social share artwork
+- index.html — page structure, content, project details, and links
+- styles.css — visual system, artwork, responsive rules, animation, and reduced-motion fallback
+- app.js — mobile navigation, scroll progress, reveal observer, and pointer response
+- favicon.svg — tab icon
+- og-cover.svg — social share artwork
+
+## Content maintenance
+
+Update project states when prototypes ship, and replace broad GitHub links with canonical live demos when those URLs are available. Certificate names are listed as supplied and can be supplemented with verification links.
