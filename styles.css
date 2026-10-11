@@ -187,7 +187,7 @@ main{width:var(--width);margin:0 auto}
 .top-grid .hero-bottom p{font-size:9px}
 .top-grid .hero-index-bottom{left:28px;right:25px;bottom:13px;font-size:6px}
 .top-grid .hero-stage{min-width:0;overflow:hidden;margin:0 -3px 0 -8px}
-.top-grid .orb-image{left:0;top:22%;width:min(78%,385px)}
+.top-grid .orb-image{left:0;top:22%;width:min(78%,385px);translate:var(--pointer-x,0px) var(--pointer-y,0px)}
 .top-grid .orbit{left:-9%;top:32%;width:97%}
 .top-grid .orbit-two{left:7%;top:17%;width:57%;height:70%}
 .top-grid .orbit-three{left:-14%;top:40%;width:94%}
