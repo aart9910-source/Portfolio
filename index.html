@@ -51,12 +51,12 @@
   <main id="main">
     <section class="hero page-shell" id="top" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <div class="eyebrow hero-eyebrow"><span class="eyebrow-dot"></span> STUDENT DEVELOPER <span class="eyebrow-slash">/</span> INDIA</div>
-        <h1 id="hero-title">Curious about<br>what’s possible.<br><span class="hero-highlight">Building it.</span></h1>
-        <p class="hero-lede">I’m Ayan. I explore the space between AI, software, physical computing and creative ideas — then turn what I learn into real projects.</p>
+        <div class="eyebrow hero-eyebrow"><span class="eyebrow-dot"></span> STUDENT DEVELOPER <span class="eyebrow-slash">/</span> INDIA <span class="hero-year">2026—∞</span></div>
+        <h1 id="hero-title"><span class="hero-line">Ideas don’t</span><span class="hero-line hero-line-last">stay <em>ideas.</em></span></h1>
+        <p class="hero-lede">I’m Ayan — a student developer moving between AI, digital products and real-world machines. I follow the question, build the thing, and learn from what breaks.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#projects">Explore my work <span class="button-arrow" aria-hidden="true">↗</span></a>
-          <a class="button button-secondary" href="#about">A little about me <span class="button-arrow" aria-hidden="true">↓</span></a>
+          <a class="button button-primary" href="#projects">Explore the work <span class="button-arrow" aria-hidden="true">↘</span></a>
+          <a class="button button-secondary" href="#about">Meet the builder <span class="button-arrow" aria-hidden="true">↗</span></a>
         </div>
         <div class="hero-meta">
           <span class="meta-label">CURRENTLY EXPLORING</span>
@@ -68,24 +68,21 @@
       </div>
 
       <div class="hero-visual">
-        <div class="hero-image-frame">
-          <img class="hero-image" src="https://d2ol7oe51mr4n9.cloudfront.net/user_3KaWQzLZi2N49JyHrsh3BJlrSjQ/41174526-3a90-4507-b195-14a7b6f374ab.webp" alt="Generated concept artwork combining an AI workspace, robotics and digital interfaces" fetchpriority="high">
-          <div class="hero-image-sheen" aria-hidden="true"></div>
-          <div class="hero-image-topline"><span><i></i> IDEA IN MOTION</span><span>001 — 004</span></div>
-          <div class="hero-image-bottom">
-            <div><span class="image-label">THE WORKBENCH</span><strong>Code. Models. Machines.</strong></div>
-            <span class="round-arrow" aria-hidden="true">↗</span>
+        <div class="signal-art">
+          <canvas id="signal-canvas" aria-hidden="true"></canvas>
+          <div class="signal-grid" aria-hidden="true"></div>
+          <div class="signal-topline"><span>FIELD STUDY / 001</span><span><i></i> LIVE SYSTEM</span></div>
+          <div class="signal-center">
+            <span class="signal-cross" aria-hidden="true">+</span>
+            <div class="signal-type">THE<br>BUILDING<br><em>FIELD.</em></div>
           </div>
+          <div class="signal-annotation signal-annotation-a"><span>01</span><b>MODEL</b></div>
+          <div class="signal-annotation signal-annotation-b"><span>02</span><b>INTERFACE</b></div>
+          <div class="signal-annotation signal-annotation-c"><span>03</span><b>MATTER</b></div>
+          <div class="signal-coordinate">25° 36' N<br>85° 08' E</div>
+          <div class="signal-bottomline"><span>AI ↗ WEB ↗ ROBOTICS</span><span>MOVE YOUR CURSOR</span></div>
         </div>
-        <div class="floating-note note-top">
-          <span class="note-symbol note-symbol-blue">✳</span>
-          <span><strong>Learn by building</strong><small>One experiment at a time</small></span>
-        </div>
-        <div class="floating-note note-bottom">
-          <span class="note-symbol note-symbol-green">⌁</span>
-          <span><strong>Different disciplines</strong><small>One curious mind</small></span>
-        </div>
-        <div class="visual-caption"><span>CONCEPT VISUAL</span><span>AI × WEB × ROBOTICS</span></div>
+        <div class="visual-caption"><span>AN OPEN ENDED EXPERIMENT</span><span>SCROLL TO EXPLORE ↓</span></div>
       </div>
     </section>
 
@@ -120,7 +117,7 @@
       <div class="project-grid" id="project-grid">
         <article class="project-card project-card-large" data-category="ai">
           <div class="project-cover cover-senura">
-            <img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3KaWQzLZi2N49JyHrsh3BJlrSjQ/206c8a0f-b70c-442d-8b34-84f658da36c6.webp" alt="Generated concept artwork for an experimental AI assistant" loading="lazy">
+            <div class="senura-field-art" aria-hidden="true"><span class="senura-stamp">S / 01</span><span class="senura-word">SENURA</span><div class="senura-wave senura-wave-one"></div><div class="senura-wave senura-wave-two"></div><div class="senura-data"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="senura-foot">LANGUAGE MODEL EXPERIMENT / 001</span></div>
             <div class="cover-gradient"></div>
             <div class="cover-top"><span class="cover-index">01 / MODEL EXPERIMENT</span><span class="state-chip state-progress">In progress</span></div>
             <div class="cover-title"><span>DATA → MODELS → EVALUATION</span><strong>Senura AI</strong></div>
@@ -245,7 +242,7 @@
 
         <article class="project-card" data-category="robotics">
           <div class="project-cover cover-robot">
-            <img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3KaWQzLZi2N49JyHrsh3BJlrSjQ/3c3f2304-a843-4df7-9f2a-8cf580ee1ea1.webp" alt="Generated concept illustration of a small assistive robot; this is not a photograph of the physical prototype" loading="lazy">
+            <div class="robot-field-art" aria-hidden="true"><span class="robot-field-label">MECHANICAL STUDY / 08</span><div class="robot-blueprint"><div class="robot-wheel robot-wheel-left"></div><div class="robot-wheel robot-wheel-right"></div><div class="robot-body"><div class="robot-screen">DX<br><i>+</i></div><div class="robot-joint"></div></div><div class="robot-arm robot-arm-a"></div><div class="robot-arm robot-arm-b"></div><div class="robot-grip"></div></div><span class="robot-field-foot">ARDUINO UNO / MOTOR CONTROL / PROTOTYPE</span></div>
             <div class="cover-gradient"></div>
             <div class="cover-top"><span class="cover-index">08 / HARDWARE PROTOTYPE</span><span class="state-chip state-prototype">Prototype</span></div>
             <div class="cover-title"><span>ARDUINO UNO · L298N · DC MOTORS</span><strong>Doctor Robot</strong></div>
