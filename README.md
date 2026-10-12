@@ -1,33 +1,33 @@
-# Ayan — Portfolio / Hero build
+# Ayan — Portfolio
 
-This repository is currently being built section by section. The current review version contains **only the hero section** and its navigation.
+A static, responsive portfolio built with HTML, CSS, and JavaScript. The site introduces Ayan’s work across AI/LLM experiments, Atimos AI and Atimos Flow, web development, robotics, and creative technology.
 
-## Hero features
+## Project status
 
-- Oversized “Creative developer building what’s next” headline with warm ivory and molten orange
-- Interactive SVG orb and orbital geometry
-- Pointer-responsive parallax on the orb, orbit rings, and project panels
-- Subtle canvas network/particle field behind the main visual
-- Floating panels linking to the live WebHorizn website and API Key Health Doctor source
-- A robotics illustration as visual context; it is not presented as a photograph of Ayan’s physical build
-- Mobile navigation, keyboard support, visible focus, reduced-motion support, and responsive layouts
+The portfolio includes original CSS/SVG artwork, an interactive hero, filterable project cards, the Atimos AI ecosystem, capabilities, a learning section, project timeline, contact links, responsive navigation, scroll reveals, and reduced-motion support.
 
-The WebHorizn panel uses its live site inside a clipped iframe, with its public brand artwork available as a fallback.
+Project statuses are intentionally labelled as **Live**, **Prototype**, **In progress**, **Concept**, or **Exploration** where appropriate. The portfolio does not claim that early experiments are finished products.
 
-## Live review
+## Preview
 
-https://ayan-portfolio-lab.vercel.app/
+- Vercel project: https://ayan-portfolio-lab.vercel.app/
+- WebHorizn: https://webhorizn.vercel.app/
+- GitHub profile: https://github.com/aart9910-source
 
 ## Local preview
 
-Open `index.html` in a browser or serve this folder with any static server. There is no build step.
+Open `index.html` in a browser or serve this folder with a static file server. No build step is required.
 
-## Source files
+## Files
 
-- `index.html` — hero content and semantic structure
-- `styles.css` — layout, visual styling, responsive breakpoints, and animation
-- `app.js` — pointer interaction, particle field, and mobile navigation
-- `orb.svg` — custom vector orb art
+- `index.html` — semantic structure and portfolio content
+- `styles.css` — layout, artwork, design system, responsive rules
+- `app.js` — hero interactions, mobile navigation, project filters, reveal animations, contact utility
+- `orb.svg` — original hero artwork
 - `favicon.svg` — browser icon
 
-Only this section is included until the hero is approved.
+## Updating content
+
+Edit the relevant project card in `index.html`. Project category filters use the `data-category` attribute; keep its value aligned with the available filter names: `ai`, `web`, `robotics`, `creative`. Update the name, email, GitHub URL, and project descriptions in the contact, hero, and project sections when needed.
+
+The site is fully static. The contact links use email/GitHub; no imaginary backend, fake testimonials, fabricated customer numbers, or unverifiable credential IDs are included.
