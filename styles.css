@@ -1128,3 +1128,12 @@ button.card-arrow:hover{background:var(--acid);color:var(--ink);border-color:var
  .case-scrim,.case-panel{animation:none!important}
  .project-card,.project-card .project-cover,.project-card .cover-title strong{transition:none!important}
 }
+
+
+/* Contrast corrections from an automated WCAG review. */
+.brand-name{color:var(--paper)}
+.meta-label{color:#8b907f}
+.atimos-section .section-kicker{color:#625b80}
+.atimos-section .section-kicker>span:first-child{color:#5a469c}
+.atimos-section .section-kicker>span:nth-child(3){color:#625b80}
+.footer-inner small,#current-year{color:#858b79}
