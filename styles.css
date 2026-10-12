@@ -983,3 +983,17 @@ a.card-arrow:hover,.project-card:hover .card-arrow{background:var(--acid);color:
   .hero-visual{width:min(100%,610px);max-width:610px;margin:0 auto}
   .signal-art{aspect-ratio:.94;min-height:0;max-height:none}
 }
+
+
+/* Maintain contrast where legacy cover illustrations use their own palette. */
+.cover-prompt .cover-title,.cover-prompt .cover-title strong,
+.cover-doctor-api .cover-title,.cover-doctor-api .cover-title strong,
+.cover-vastu .cover-title,.cover-vastu .cover-title strong,
+.cover-rumble .cover-title,.cover-rumble .cover-title strong,
+.cover-dance .cover-title,.cover-dance .cover-title strong{
+  color:var(--paper)!important;
+}
+.cover-prompt .cover-title>span,.cover-doctor-api .cover-title>span,
+.cover-vastu .cover-title>span,.cover-rumble .cover-title>span,
+.cover-dance .cover-title>span{color:#bac0a9!important}
+:focus-visible{outline:2px solid var(--acid)!important;outline-offset:4px}
