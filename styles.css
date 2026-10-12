@@ -997,3 +997,8 @@ a.card-arrow:hover,.project-card:hover .card-arrow{background:var(--acid);color:
 .cover-vastu .cover-title>span,.cover-rumble .cover-title>span,
 .cover-dance .cover-title>span{color:#bac0a9!important}
 :focus-visible{outline:2px solid var(--acid)!important;outline-offset:4px}
+
+
+/* Keep the header quiet: a typographic link, not a template CTA pill. */
+.nav-contact{padding:0;background:transparent;border:0;border-radius:0;box-shadow:none;min-height:0}
+.nav-contact:hover{background:transparent;color:var(--acid)}
