@@ -196,3 +196,67 @@
 
   if (!reduceMotion) startAnimation();
 })();
+
+/* ===== Portfolio interactions: filters, reveal, current year, email copy ===== */
+(function () {
+  'use strict';
+
+  var filterButtons = Array.prototype.slice.call(document.querySelectorAll('[data-filter]'));
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.work-card[data-category]'));
+  var emptyState = document.getElementById('filter-empty');
+
+  filterButtons.forEach(function (button) {
+    button.addEventListener('click', function () {
+      var filter = button.getAttribute('data-filter');
+      filterButtons.forEach(function (item) {
+        var active = item === button;
+        item.classList.toggle('is-active', active);
+        item.setAttribute('aria-pressed', String(active));
+      });
+      var visibleCount = 0;
+      cards.forEach(function (card) {
+        var visible = filter === 'all' || card.getAttribute('data-category').split(/\s+/).indexOf(filter) !== -1;
+        card.hidden = !visible;
+        if (visible) visibleCount++;
+      });
+      if (emptyState) emptyState.hidden = visibleCount > 0;
+    });
+  });
+
+  var year = document.getElementById('current-year');
+  if (year) year.textContent = String(new Date().getFullYear());
+
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var reveals = document.querySelectorAll('.enter');
+  if ('IntersectionObserver' in window && !reduceMotion) {
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -4% 0px' });
+    reveals.forEach(function (item) { observer.observe(item); });
+  } else {
+    reveals.forEach(function (item) { item.classList.add('is-visible'); });
+  }
+
+  var copyButton = document.querySelector('[data-copy-email]');
+  var feedback = document.getElementById('copy-feedback');
+  if (copyButton) {
+    copyButton.addEventListener('click', function () {
+      var email = copyButton.getAttribute('data-copy-email');
+      function confirmed() {
+        if (feedback) feedback.textContent = 'Email copied: ' + email;
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(email).then(confirmed).catch(function () {
+          if (feedback) feedback.textContent = 'Use this email: ' + email;
+        });
+      } else if (feedback) {
+        feedback.textContent = 'Use this email: ' + email;
+      }
+    });
+  }
+})();
