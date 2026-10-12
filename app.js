@@ -191,11 +191,9 @@
   // Seamless loop: repeat the discipline list once, without changing its source content.
   var ticker=document.querySelector('.discipline-strip-inner');
   if(ticker&&!ticker.dataset.looped){
-    var copy=ticker.cloneNode(true);
-    copy.setAttribute('aria-hidden','true');
-    copy.querySelectorAll('a,button').forEach(function(el){el.setAttribute('tabindex','-1');});
-    Array.from(copy.children).forEach(function(el){el.setAttribute('aria-hidden','true');});
-    ticker.appendChild(copy);
+    Array.from(ticker.children).forEach(function(el){
+      var copy=el.cloneNode(true);copy.setAttribute('aria-hidden','true');ticker.appendChild(copy);
+    });
     ticker.dataset.looped='true';
   }
 
