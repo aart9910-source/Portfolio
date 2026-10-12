@@ -589,7 +589,7 @@ button{font:inherit}
 .discipline-strip:hover .discipline-strip-inner{animation-play-state:paused}
 .discipline-strip-inner span{font:500 clamp(14px,1.6vw,21px)/1 var(--sans);letter-spacing:-.045em;color:#d7d9cd}
 .discipline-strip-inner i{color:var(--acid);font-style:normal;font-size:16px}
-@keyframes fieldTicker{to{transform:translateX(-15%)}}
+@keyframes fieldTicker{to{transform:translateX(-50%)}}
 
 /* Section skeleton + typographic rhythm */
 .section{padding-top:clamp(95px,11vw,160px);padding-bottom:clamp(90px,10vw,145px)}
