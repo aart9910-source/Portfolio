@@ -396,7 +396,7 @@
     caseDialog.hidden=true;document.body.classList.remove('case-modal-open');
     if(caseOpener&&caseOpener.isConnected)caseOpener.focus({preventScroll:true});
   }
-  document.querySelectorAll('.case-open').forEach(function(button){
+  document.querySelectorAll('.case-open, .case-open-link').forEach(function(button){
     button.addEventListener('click',function(){openCase(button.getAttribute('data-case'),button);});
   });
   if(caseDialog){
