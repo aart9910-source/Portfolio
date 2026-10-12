@@ -1,33 +1,42 @@
 # Ayan — Portfolio
 
-A static, responsive portfolio built with HTML, CSS, and JavaScript. The site introduces Ayan’s work across AI/LLM experiments, Atimos AI and Atimos Flow, web development, robotics, and creative technology.
+A responsive, static portfolio for Ayan, a student developer exploring AI systems, Atimos AI, web development, robotics and creative technology.
 
-## Project status
+## Visual direction
 
-The portfolio includes original CSS/SVG artwork, an interactive hero, filterable project cards, the Atimos AI ecosystem, capabilities, a learning section, project timeline, contact links, responsive navigation, scroll reveals, and reduced-motion support.
+The site uses an airy, product-led design with generous typography, a calm neutral canvas, restrained blue accents, soft pastel Atimos surfaces, an interactive project filter, and generated concept art for visual storytelling. The generated AI and robotics visuals are clearly treated as concept artwork—not photographs of physical prototypes or proof that an experimental product is shipped. The WebHorizn card uses a screenshot of the live website.
 
-Project statuses are intentionally labelled as **Live**, **Prototype**, **In progress**, **Concept**, or **Exploration** where appropriate. The portfolio does not claim that early experiments are finished products.
+## Projects covered
 
-## Preview
+- AI: Senura AI, HELIOS, API Key Health Doctor, Promptetix, Promptmatics, AI Lang and early Syntax Bot ideas.
+- Atimos AI: Atimos Flow and the connected local-first AI / agent ecosystem concepts.
+- Web: WebHorizn (live), Vastu landing-page and Google Sheets workflow exploration.
+- Robotics: Doctor Robot prototype, embedded and hardware work, and Robo Rumble 2026 event-organising experience.
+- Creative: Dance Maze Company promotional-media and AI-assisted video exploration.
+- Learning: Microsoft Power BI, PowerPoint Associate, Excel Associate, and a B10X AI tools workshop as listed from personal learning records.
 
-- Vercel project: https://ayan-portfolio-lab.vercel.app/
-- WebHorizn: https://webhorizn.vercel.app/
+Project status labels distinguish live work from prototypes, concepts and ongoing experiments. No fake testimonials, client metrics, employment history or credential IDs are included.
+
+## Links
+
+- Live portfolio: https://ayan-portfolio-lab.vercel.app/
 - GitHub profile: https://github.com/aart9910-source
+- WebHorizn: https://webhorizn.vercel.app/
+- API Key Health Doctor repository: https://github.com/okojiayan/Api-Key-Tester
 
 ## Local preview
 
-Open `index.html` in a browser or serve this folder with a static file server. No build step is required.
+Open `index.html` in a browser or serve this folder with any static server. No build step is required.
 
 ## Files
 
-- `index.html` — semantic structure and portfolio content
-- `styles.css` — layout, artwork, design system, responsive rules
-- `app.js` — hero interactions, mobile navigation, project filters, reveal animations, contact utility
-- `orb.svg` — original hero artwork
-- `favicon.svg` — browser icon
+- `index.html` — semantic structure and content for the full portfolio.
+- `styles.css` — visual design, custom project art, responsive layout and reduced-motion support.
+- `app.js` — project filtering, mobile navigation, active-section states, dynamic copyright year and copy-email utility.
+- `orb.svg` / `favicon.svg` — retained repository vector assets.
 
 ## Updating content
 
-Edit the relevant project card in `index.html`. Project category filters use the `data-category` attribute; keep its value aligned with the available filter names: `ai`, `web`, `robotics`, `creative`. Update the name, email, GitHub URL, and project descriptions in the contact, hero, and project sections when needed.
+Edit project cards in `index.html`. Project filter categories use `data-category` values of `ai`, `web`, `robotics` and `creative`. Update name, email, GitHub profile and descriptions in the relevant sections as they change.
 
-The site is fully static. The contact links use email/GitHub; no imaginary backend, fake testimonials, fabricated customer numbers, or unverifiable credential IDs are included.
+This is a static site. Contact routes use email and GitHub; no imaginary backend or fake contact form is present.
