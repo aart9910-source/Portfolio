@@ -33,7 +33,7 @@
       filterButtons.forEach(function(b){var active=b===button;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});
       var shown=0;
       projectCards.forEach(function(card){
-        var category=(card.getAttribute('data-category')||'').split(/\\s+/);
+        var category=(card.getAttribute('data-category')||'').split(/\s+/);
         var visible=filter==='all'||category.indexOf(filter)!==-1;
         card.hidden=!visible;
         if(visible)shown++;
