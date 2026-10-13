@@ -1545,3 +1545,11 @@ button.card-arrow:hover{background:var(--acid);color:var(--ink);border-color:var
 .atimos-visual{aspect-ratio:900/750!important}
 @media(max-width:1040px){.atimos-visual{aspect-ratio:900/750!important}}
 @media(max-width:760px){.atimos-visual{aspect-ratio:1.08!important}}
+
+
+/* Keep the new geometric brand mark legible on the light field-note header too. */
+.case-brand .brand-symbol{
+  width:31px!important;height:31px!important;flex-basis:31px!important;
+  color:#f1f0e5!important;background:#26382b!important;border:0!important;
+}
+.case-brand .brand-symbol svg{width:100%;height:100%}
