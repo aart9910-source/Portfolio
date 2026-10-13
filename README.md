@@ -24,8 +24,13 @@ Several covers use illustrative reference photographs rather than images of Ayan
 
 ## Image credits
 
-Reference photographs are sourced from Unsplash and used under the Unsplash License. Source pages: [Dhony Koswara — dark workspace](https://unsplash.com/photos/laptop-mug-and-notebooks-on-a-dark-workspace-uxxGF7g754U), [Clevenider Petit — dark computer desk](https://unsplash.com/photos/a-dark-office-desk-with-a-computer-monitor-rtY0WbkRdPk), [Rushikesh Patil — courtyard](https://unsplash.com/photos/a-bench-sitting-in-the-middle-of-a-courtyard-n2SwyHno0G4), [Gabriel Vasiliu — small robot car](https://unsplash.com/photos/a-small-robot-car-with-wheels-and-wires-attached-to-it-mVJzfw2Zm7Y), [Mikhail Seleznev — robotic vehicles](https://unsplash.com/photos/several-blue-robotic-vehicles-with-wheels-lined-up-_2r05WCBe4A), and [Pesce Huang — dance studio](https://unsplash.com/photos/a-man-and-a-woman-dance-in-a-dance-studio-_0GKDlwU4BU).
+Reference photographs are mood/context imagery, not photographs of Ayan's own builds unless explicitly described as a live-site screenshot. They are labelled that way in alt text and project notes.
 
+- [Laptop with code in a cozy workspace](https://www.pexels.com/photo/modern-laptop-displaying-code-in-cozy-workspace-34803986/) — Pexels, free-use photo.
+- [Modern desk with monitor and laptop](https://www.pexels.com/photo/modern-workspace-with-keyboard-and-monitor-31198911/) — Pexels, free-use photo.
+- [Contemporary dance rehearsal](https://www.pexels.com/photo/people-rehearsing-a-dance-6926538/) — Pexels, free-use photo.
+
+The courtyard and robot/competition reference photos are served from Unsplash's image CDN. Their original creator pages have not been independently verified, so this README does not assign individual photographer credit to them. Replace these contextual images with original project photography when available.
 ## Project areas
 
 - **AI systems:** Senura AI, HELIOS, API Key Health Doctor, Promptetix, Promptmatics, AI Lang and early Syntax Bot ideas.
