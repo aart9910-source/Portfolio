@@ -34,7 +34,7 @@
   <header class="site-header">
     <div class="nav-shell">
       <a class="brand" href="#top" aria-label="Ayan — home">
-        <span class="brand-mark">a<span>.</span></span>
+        <span class="brand-mark brand-symbol" aria-hidden="true"><svg viewBox="0 0 40 40" focusable="false"><path d="M7.5 30 19.5 7.5 31.5 30" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="square" stroke-linejoin="miter"/><path d="M12.8 21.5h13.4" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="31" cy="29.5" r="3.2" fill="var(--acid)"/></svg></span>
         <span class="brand-name">ayan<span class="brand-name-dot">/</span>builds</span>
       </a>
       <nav class="desktop-nav" aria-label="Main navigation">
@@ -162,12 +162,56 @@
           <div class="project-cover cover-flow">
             <div class="cover-top"><span class="cover-index">03 / INTERACTION DESIGN</span><span class="state-chip state-explore">Evolving</span></div>
             <div class="flow-canvas" aria-hidden="true">
-              <div class="flow-ui-window">
-                <div class="flow-ui-bar"><span>● ● ●</span><small>ATIMOS FLOW</small><span>↗</span></div>
-                <div class="flow-ui-body"><span>HUMAN × AI</span><strong>Make room<br>for better <em>thinking.</em></strong><div class="flow-ui-pills"><i>Flow Surface</i><i>Flow Capsule</i></div></div>
-              </div>
-              <div class="flow-floating-orb">H</div>
-              <div class="flow-swatches"><i></i><i></i><i></i><i></i><i></i></div>
+              <svg class="flow-workspace-svg" viewBox="0 0 900 590" role="presentation" focusable="false">
+                <defs>
+                  <linearGradient id="flowPaper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3f2e8"/><stop offset="1" stop-color="#dce4d3"/></linearGradient>
+                  <linearGradient id="flowOrb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d5ff43"/><stop offset=".55" stop-color="#9bb77b"/><stop offset="1" stop-color="#5c765e"/></linearGradient>
+                  <filter id="flowShadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#18241a" flood-opacity=".18"/></filter>
+                </defs>
+                <rect width="900" height="590" fill="#cdd7c2"/>
+                <path d="M0 72H900M0 144H900M0 216H900M0 288H900M0 360H900M0 432H900M0 504H900M72 0V590M144 0V590M216 0V590M288 0V590M360 0V590M432 0V590M504 0V590M576 0V590M648 0V590M720 0V590M792 0V590M864 0V590" stroke="#53684c" stroke-opacity=".1" stroke-width="1"/>
+                <g filter="url(#flowShadow)">
+                  <rect x="64" y="54" width="645" height="454" rx="8" fill="url(#flowPaper)" stroke="#77836c" stroke-width="1.3"/>
+                  <path d="M64 108H709" stroke="#bdc5b4"/>
+                  <rect x="81" y="72" width="20" height="20" rx="5" fill="#26392e"/>
+                  <path d="M85 87 91 76 97 87M88 82H94" stroke="#d5ff43" stroke-width="1.5" fill="none"/>
+                  <text x="113" y="86" font-family="IBM Plex Mono,monospace" font-size="12" letter-spacing="1.3" fill="#25352b">ATIMOS FLOW</text>
+                  <text x="562" y="85" font-family="IBM Plex Mono,monospace" font-size="9" letter-spacing=".7" fill="#657361">WORKSPACE / 01</text>
+                  <rect x="82" y="125" width="137" height="353" rx="4" fill="#e4e8dc"/>
+                  <text x="98" y="151" font-family="IBM Plex Mono,monospace" font-size="9" letter-spacing="1" fill="#7b8772">YOUR SPACE</text>
+                  <rect x="92" y="168" width="117" height="37" rx="4" fill="#273a2e"/>
+                  <circle cx="105" cy="186" r="4" fill="#d5ff43"/>
+                  <text x="116" y="190" font-family="Space Grotesk,sans-serif" font-size="11" fill="#f4f2e8">Focus room</text>
+                  <circle cx="105" cy="229" r="4" fill="#8b9c81"/><text x="116" y="233" font-family="Space Grotesk,sans-serif" font-size="11" fill="#465542">Tasks</text>
+                  <circle cx="105" cy="263" r="4" fill="#8b9c81"/><text x="116" y="267" font-family="Space Grotesk,sans-serif" font-size="11" fill="#465542">Memory</text>
+                  <circle cx="105" cy="297" r="4" fill="#8b9c81"/><text x="116" y="301" font-family="Space Grotesk,sans-serif" font-size="11" fill="#465542">Connections</text>
+                  <path d="M95 325H204" stroke="#c1c9b8"/>
+                  <text x="98" y="346" font-family="IBM Plex Mono,monospace" font-size="8.5" letter-spacing=".8" fill="#7b8772">PINNED</text>
+                  <rect x="94" y="360" width="112" height="36" rx="3" fill="#f4f2e8" stroke="#d4d8cc"/>
+                  <circle cx="106" cy="378" r="5" fill="#bccbb1"/><text x="117" y="381" font-family="Space Grotesk,sans-serif" font-size="9.5" fill="#465542">Build log</text>
+                  <rect x="94" y="405" width="112" height="36" rx="3" fill="#f4f2e8" stroke="#d4d8cc"/>
+                  <circle cx="106" cy="423" r="5" fill="#e2b590"/><text x="117" y="426" font-family="Space Grotesk,sans-serif" font-size="9.5" fill="#465542">Reading list</text>
+                  <text x="249" y="144" font-family="IBM Plex Mono,monospace" font-size="9.5" letter-spacing="1.1" fill="#75836a">MONDAY / OPEN WORKSPACE</text>
+                  <text x="247" y="189" font-family="Space Grotesk,sans-serif" font-size="35" letter-spacing="-1.6" fill="#202f25">Make room for</text>
+                  <text x="247" y="229" font-family="Instrument Serif,serif" font-size="46" font-style="italic" fill="#6d875e">better thinking.</text>
+                  <rect x="249" y="249" width="130" height="27" rx="13.5" fill="#293e31"/>
+                  <text x="265" y="266" font-family="IBM Plex Mono,monospace" font-size="9.5" fill="#f3f2e8">FLOW SURFACE</text>
+                  <rect x="387" y="249" width="133" height="27" rx="13.5" fill="#d5ff43"/>
+                  <text x="402" y="266" font-family="IBM Plex Mono,monospace" font-size="9.5" fill="#26372a">FLOW CAPSULE</text>
+                  <text x="249" y="309" font-family="IBM Plex Mono,monospace" font-size="9" letter-spacing="1" fill="#77846e">TODAY'S WORK</text>
+                  <rect x="249" y="323" width="425" height="53" rx="4" fill="#f8f7ef" stroke="#d3d8c9"/>
+                  <circle cx="268" cy="349" r="7" fill="#d5ff43"/><path d="m264 349 3 3 5-6" stroke="#2d4932" stroke-width="1.5" fill="none"/>
+                  <text x="287" y="345" font-family="Space Grotesk,sans-serif" font-size="12" fill="#28382c">Explore a new idea</text><text x="287" y="361" font-family="Space Grotesk,sans-serif" font-size="9.5" fill="#87917f">Research · 20 min</text>
+                  <rect x="249" y="384" width="425" height="53" rx="4" fill="#f8f7ef" stroke="#d3d8c9"/>
+                  <circle cx="268" cy="410" r="7" fill="#e8b38c"/><path d="m265 407 6 6m0-6-6 6" stroke="#674532" stroke-width="1.4"/>
+                  <text x="287" y="406" font-family="Space Grotesk,sans-serif" font-size="12" fill="#28382c">Sketch an interaction</text><text x="287" y="422" font-family="Space Grotesk,sans-serif" font-size="9.5" fill="#87917f">Design · 35 min</text>
+                  <text x="249" y="464" font-family="IBM Plex Mono,monospace" font-size="9" letter-spacing="1" fill="#77846e">CALM BY DESIGN / BUILT FOR FOCUS</text>
+                </g>
+                <g filter="url(#flowShadow)"><circle cx="761" cy="159" r="69" fill="url(#flowOrb)" stroke="#f5f4e9" stroke-width="5"/><path d="M735 185 760 118 786 185M746 159H776" fill="none" stroke="#26392e" stroke-width="5" stroke-linejoin="round"/><circle cx="787" cy="183" r="5" fill="#26392e"/></g>
+                <g><rect x="724" y="285" width="145" height="61" rx="5" fill="#f6f4e9" stroke="#aab59d"/><circle cx="744" cy="306" r="6" fill="#a8b99b"/><text x="758" y="308" font-family="IBM Plex Mono,monospace" font-size="9" fill="#53624d">HELIOS</text><text x="739" y="329" font-family="Space Grotesk,sans-serif" font-size="10" fill="#33432f">Context + memory</text></g>
+                <g><rect x="724" y="358" width="145" height="61" rx="5" fill="#f6f4e9" stroke="#aab59d"/><circle cx="744" cy="379" r="6" fill="#d9a680"/><text x="758" y="381" font-family="IBM Plex Mono,monospace" font-size="9" fill="#53624d">PROMPT TOOLS</text><text x="739" y="402" font-family="Space Grotesk,sans-serif" font-size="10" fill="#33432f">Ideas → workflows</text></g>
+                <g><rect x="724" y="431" width="145" height="44" rx="5" fill="#26392e"/><text x="739" y="450" font-family="IBM Plex Mono,monospace" font-size="8.5" fill="#d5ff43">SYSTEM 01 / LIVE</text><text x="739" y="465" font-family="Space Grotesk,sans-serif" font-size="10" fill="#f3f2e8">Human × AI</text></g>
+              </svg>
             </div>
             <div class="cover-title"><span>LAVENDER · MINT · SOFT BLUE</span><strong>Atimos Flow</strong></div>
           </div>
@@ -183,20 +227,63 @@
         <article class="project-card project-card-large" data-category="ai">
           <div class="project-cover cover-prompt">
             <div class="cover-top"><span class="cover-index">04 / PROMPT & AGENT TOOLS</span><span class="state-chip state-explore">Exploration</span></div>
-            <div class="prompt-art" aria-hidden="true">
-              <div class="prompt-orbit prompt-orbit-a"></div><div class="prompt-orbit prompt-orbit-b"></div>
-              <div class="prompt-node node-main"><span>✳</span><strong>IDEA</strong></div>
-              <div class="prompt-node node-one"><span>01</span><strong>Prompt</strong></div>
-              <div class="prompt-node node-two"><span>02</span><strong>Context</strong></div>
-              <div class="prompt-node node-three"><span>03</span><strong>Tools</strong></div>
-              <div class="prompt-node node-four"><span>04</span><strong>Result</strong></div>
+            <div class="prompt-art prompt-art-editorial" aria-hidden="true">
+              <svg class="prompt-workflow-svg" viewBox="0 0 900 590" role="presentation" focusable="false">
+                <defs>
+                  <linearGradient id="promptPanel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#232e25"/><stop offset="1" stop-color="#141a15"/></linearGradient>
+                  <filter id="promptShadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="15" stdDeviation="16" flood-color="#080d09" flood-opacity=".28"/></filter>
+                </defs>
+                <rect width="900" height="590" fill="#19231b"/>
+                <path d="M0 60H900M0 120H900M0 180H900M0 240H900M0 300H900M0 360H900M0 420H900M0 480H900M60 0V590M120 0V590M180 0V590M240 0V590M300 0V590M360 0V590M420 0V590M480 0V590M540 0V590M600 0V590M660 0V590M720 0V590M780 0V590M840 0V590" stroke="#d5ff43" stroke-opacity=".06"/>
+                <text x="48" y="47" font-family="IBM Plex Mono,monospace" font-size="11" letter-spacing="1.8" fill="#d5ff43">PROMPTETIX / WORKFLOW LAB</text>
+                <text x="850" y="47" text-anchor="end" font-family="IBM Plex Mono,monospace" font-size="10" fill="#a2af9e">RUN 0048</text>
+                <path d="M225 281H272M440 281H482M650 281H689" fill="none" stroke="#c2d8a6" stroke-width="2"/>
+                <path d="m264 274 8 7-8 7m210-14 8 7-8 7m207-14 8 7-8 7" fill="none" stroke="#d5ff43" stroke-width="2"/>
+                <g filter="url(#promptShadow)">
+                  <rect x="46" y="188" width="178" height="186" rx="7" fill="url(#promptPanel)" stroke="#576b57"/>
+                  <text x="63" y="215" font-family="IBM Plex Mono,monospace" font-size="10" fill="#91a78b">00 / INPUT</text>
+                  <circle cx="69" cy="247" r="6" fill="#d5ff43"/><text x="86" y="251" font-family="Space Grotesk,sans-serif" font-size="15" fill="#f1f0e5">A question</text>
+                  <rect x="63" y="270" width="140" height="3" rx="1.5" fill="#3a4b3c"/><rect x="63" y="270" width="96" height="3" rx="1.5" fill="#b7cf9b"/>
+                  <rect x="63" y="292" width="127" height="3" rx="1.5" fill="#3a4b3c"/><rect x="63" y="314" width="111" height="3" rx="1.5" fill="#3a4b3c"/>
+                  <text x="63" y="347" font-family="IBM Plex Mono,monospace" font-size="9" fill="#91a78b">INTENT / RAW</text>
+                </g>
+                <g filter="url(#promptShadow)">
+                  <rect x="273" y="188" width="167" height="186" rx="7" fill="#eeeede" stroke="#c7ceb9"/>
+                  <text x="290" y="215" font-family="IBM Plex Mono,monospace" font-size="10" fill="#77866e">01 / CONTEXT</text>
+                  <rect x="290" y="239" width="38" height="38" rx="4" fill="#d7e2c9"/><path d="M300 258h18m-9-9v18" stroke="#344936" stroke-width="2"/>
+                  <text x="340" y="252" font-family="Space Grotesk,sans-serif" font-size="13" fill="#26382b">Memory</text><text x="340" y="269" font-family="Space Grotesk,sans-serif" font-size="10" fill="#77836e">Relevant facts</text>
+                  <path d="M290 293H421" stroke="#c9d0bf"/><text x="290" y="316" font-family="IBM Plex Mono,monospace" font-size="9" fill="#77866e">ROLE / GOAL</text><text x="290" y="338" font-family="Space Grotesk,sans-serif" font-size="12" fill="#26382b">One clear objective</text>
+                  <circle cx="421" cy="196" r="6" fill="#d5ff43"/>
+                </g>
+                <g filter="url(#promptShadow)">
+                  <rect x="483" y="188" width="168" height="186" rx="7" fill="#eeeede" stroke="#c7ceb9"/>
+                  <text x="500" y="215" font-family="IBM Plex Mono,monospace" font-size="10" fill="#77866e">02 / EXECUTE</text>
+                  <rect x="500" y="237" width="134" height="34" rx="4" fill="#dce6d0"/><circle cx="515" cy="254" r="4" fill="#6d9167"/><text x="528" y="258" font-family="Space Grotesk,sans-serif" font-size="11" fill="#26382b">Call a tool</text>
+                  <rect x="500" y="280" width="134" height="34" rx="4" fill="#dce6d0"/><circle cx="515" cy="297" r="4" fill="#d3a57d"/><text x="528" y="301" font-family="Space Grotesk,sans-serif" font-size="11" fill="#26382b">Check result</text>
+                  <rect x="500" y="323" width="134" height="29" rx="4" fill="#26382b"/><text x="567" y="341" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="9" fill="#d5ff43">VERIFY OUTPUT</text>
+                </g>
+                <g filter="url(#promptShadow)">
+                  <rect x="690" y="188" width="164" height="186" rx="7" fill="#d5ff43" stroke="#e3ff8a"/>
+                  <text x="707" y="215" font-family="IBM Plex Mono,monospace" font-size="10" fill="#4d632c">03 / RESULT</text>
+                  <path d="m713 253 11 11 23-26" fill="none" stroke="#263b28" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                  <text x="707" y="291" font-family="Space Grotesk,sans-serif" font-size="18" font-weight="600" fill="#1e2c20">Useful output.</text>
+                  <text x="707" y="316" font-family="Space Grotesk,sans-serif" font-size="11" fill="#455a33">Grounded</text>
+                  <text x="707" y="333" font-family="Space Grotesk,sans-serif" font-size="11" fill="#455a33">Checked</text>
+                  <text x="707" y="350" font-family="Space Grotesk,sans-serif" font-size="11" fill="#455a33">Ready to use</text>
+                </g>
+                <path d="M136 393V429H766V393" fill="none" stroke="#657b60" stroke-width="1.5" stroke-dasharray="5 5"/>
+                <rect x="335" y="413" width="232" height="31" rx="15.5" fill="#222d23" stroke="#5e765d"/>
+                <text x="451" y="433" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="9" letter-spacing=".9" fill="#b7cf9b">OBSERVE → ADAPT → RETRY</text>
+                <text x="49" y="526" font-family="IBM Plex Mono,monospace" font-size="10" letter-spacing="1.3" fill="#9fb198">PROMPT ENGINEERING IS THE START.</text>
+                <text x="49" y="549" font-family="Space Grotesk,sans-serif" font-size="15" fill="#f2f1e6">Workflow design makes the whole system useful.</text>
+              </svg>
             </div>
             <div class="cover-title"><span>PROMPT → WORKFLOW → OUTCOME</span><strong>Tools for thinking with AI</strong></div>
           </div>
           <div class="project-card-body">
             <div class="project-card-head"><span class="project-type">AI / WORKFLOW EXPERIMENTS</span><button class="card-arrow case-open" type="button" data-case="prompt-tools" aria-label="Open Promptetix & agent experiments field notes">↗</button></div>
             <p>Promptetix (including V3 explorations), Promptmatics, AI Lang and early Syntax Bot ideas. I’m exploring reusable prompts, multi-step workflows, subagents and graph-shaped orchestration.</p>
-            <div class="tag-row"><span>Prompt engineering</span><span>Subagents</span><span>Workflow design</span></div>
+            <div class="tag-row"><span>Prompt engineering</span><span>Subagents</span><span>Workflow design</span></div>\n            <div class="project-note">Original workflow illustration; the underlying tools remain experiments.</div>
             <button class="inline-link case-open-link" type="button" data-case="prompt-tools">Open field notes <span>↗</span></button>
           </div>
         </article>
@@ -204,12 +291,36 @@
         <article class="project-card" data-category="ai">
           <div class="project-cover cover-doctor-api">
             <div class="cover-top"><span class="cover-index">05 / DEVELOPER TOOL</span><span class="state-chip state-prototype">Prototype</span></div>
-            <div class="api-diagnostic" aria-hidden="true">
-              <div class="diagnostic-header"><span><i></i><i></i><i></i></span><small>provider-check / status</small><b>v0.x</b></div>
-              <div class="diagnostic-line"><span>01</span><code>inspect_provider()</code><i>↗</i></div>
-              <div class="diagnostic-line"><span>02</span><code>validate_key_shape()</code><i>↗</i></div>
-              <div class="diagnostic-line"><span>03</span><code>check_response()</code><i>↗</i></div>
-              <div class="diagnostic-status"><span></span> Diagnostic flow</div>
+            <div class="api-diagnostic api-health-console" aria-hidden="true">
+              <svg class="api-health-svg" viewBox="0 0 900 590" role="presentation" focusable="false">
+                <defs><linearGradient id="apiBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#28352c"/><stop offset="1" stop-color="#111713"/></linearGradient><filter id="apiShadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="18" stdDeviation="17" flood-color="#000" flood-opacity=".25"/></filter></defs>
+                <rect width="900" height="590" fill="url(#apiBg)"/>
+                <path d="M0 74H900M0 148H900M0 222H900M0 296H900M0 370H900M0 444H900M0 518H900M74 0V590M148 0V590M222 0V590M296 0V590M370 0V590M444 0V590M518 0V590M592 0V590M666 0V590M740 0V590M814 0V590" stroke="#d5ff43" stroke-opacity=".045"/>
+                <g filter="url(#apiShadow)">
+                  <rect x="62" y="55" width="776" height="481" rx="8" fill="#edf0e4" stroke="#b6c0aa"/>
+                  <path d="M62 108H838" stroke="#d0d7c8"/>
+                  <rect x="82" y="75" width="20" height="20" rx="3" fill="#263b2d"/><path d="m88 90 4-10 4 10m-6-3h4" fill="none" stroke="#d5ff43" stroke-width="1.4"/>
+                  <text x="114" y="89" font-family="IBM Plex Mono,monospace" font-size="12" letter-spacing=".8" fill="#2a3b2d">API HEALTH / DIAGNOSTICS</text>
+                  <text x="814" y="89" text-anchor="end" font-family="IBM Plex Mono,monospace" font-size="9" fill="#75816d">INTERFACE CONCEPT</text>
+                  <text x="88" y="146" font-family="Space Grotesk,sans-serif" font-size="26" letter-spacing="-1" fill="#202e24">Provider check</text>
+                  <text x="88" y="168" font-family="Space Grotesk,sans-serif" font-size="12" fill="#77836d">Understand the failure before rotating the key.</text>
+                  <rect x="87" y="190" width="725" height="68" rx="5" fill="#e0e7d7" stroke="#c9d2be"/>
+                  <circle cx="113" cy="223" r="11" fill="#c3d8b2"/><path d="m108 223 4 4 7-9" fill="none" stroke="#355137" stroke-width="1.8"/>
+                  <text x="137" y="214" font-family="IBM Plex Mono,monospace" font-size="9" fill="#728067">PROVIDER</text><text x="137" y="237" font-family="Space Grotesk,sans-serif" font-size="15" fill="#2b3b2d">Connection workflow</text>
+                  <rect x="641" y="208" width="151" height="29" rx="14.5" fill="#2a3b2d"/><text x="716" y="226" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="9" letter-spacing=".5" fill="#d5ff43">DEMO INTERFACE</text>
+                  <text x="88" y="292" font-family="IBM Plex Mono,monospace" font-size="10" letter-spacing="1" fill="#77836d">DIAGNOSTIC STEPS</text>
+                  <rect x="87" y="309" width="224" height="84" rx="5" fill="#f8f8f0" stroke="#d3dacb"/>
+                  <circle cx="110" cy="334" r="9" fill="#e4eadc"/><text x="110" y="338" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="10" fill="#476044">01</text><text x="128" y="337" font-family="Space Grotesk,sans-serif" font-size="12" fill="#293c2d">Key format</text><text x="106" y="365" font-family="IBM Plex Mono,monospace" font-size="9" fill="#78836f">Local validation</text><rect x="106" y="377" width="102" height="3" rx="1.5" fill="#afc2a1"/>
+                  <rect x="329" y="309" width="224" height="84" rx="5" fill="#f8f8f0" stroke="#d3dacb"/>
+                  <circle cx="352" cy="334" r="9" fill="#f2dfc5"/><text x="352" y="338" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="10" fill="#735334">02</text><text x="370" y="337" font-family="Space Grotesk,sans-serif" font-size="12" fill="#293c2d">Provider response</text><text x="348" y="365" font-family="IBM Plex Mono,monospace" font-size="9" fill="#78836f">Network / auth check</text><rect x="348" y="377" width="146" height="3" rx="1.5" fill="#e2c29b"/>
+                  <rect x="571" y="309" width="241" height="84" rx="5" fill="#f8f8f0" stroke="#d3dacb"/>
+                  <circle cx="594" cy="334" r="9" fill="#d9e4ce"/><text x="594" y="338" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="10" fill="#476044">03</text><text x="612" y="337" font-family="Space Grotesk,sans-serif" font-size="12" fill="#293c2d">Useful error</text><text x="590" y="365" font-family="IBM Plex Mono,monospace" font-size="9" fill="#78836f">Actionable feedback</text><rect x="590" y="377" width="122" height="3" rx="1.5" fill="#afc2a1"/>
+                  <path d="M87 418H812" stroke="#d0d7c8"/>
+                  <text x="88" y="446" font-family="IBM Plex Mono,monospace" font-size="9" letter-spacing=".8" fill="#7a8572">SAFE BY DEFAULT</text>
+                  <text x="88" y="469" font-family="Space Grotesk,sans-serif" font-size="13" fill="#2c3c2e">Inspect → validate → diagnose</text>
+                  <text x="809" y="469" text-anchor="end" font-family="IBM Plex Mono,monospace" font-size="9" fill="#77836d">NO SECRET DISPLAYED</text>
+                </g>
+              </svg>
             </div>
             <div class="cover-title"><span>DEBUGGING / PROVIDER CONNECTIONS</span><strong>API Key Health Doctor</strong></div>
           </div>
@@ -217,6 +328,7 @@
             <div class="project-card-head"><span class="project-type">AI / DEVELOPER EXPERIENCE</span><button class="card-arrow case-open" type="button" data-case="api-doctor" aria-label="Open API Key Health Doctor field notes">↗</button></div>
             <p>A developer-tool experiment around diagnosing AI API keys and provider-connection issues. The repository is the best place to inspect the implementation as it evolves.</p>
             <div class="tag-row"><span>APIs</span><span>Debugging</span><span>Developer tools</span></div>
+            <div class="project-note">Interface concept; not a screenshot of a live diagnostic run.</div>
             <button class="inline-link case-open-link" type="button" data-case="api-doctor">Open field notes <span>↗</span></button>
             <a class="inline-link" href="https://github.com/okojiayan/Api-Key-Tester" target="_blank" rel="noopener noreferrer">Explore the repository <span>↗</span></a>
           </div>
@@ -256,7 +368,65 @@
 
         <article class="project-card" data-category="robotics">
           <div class="project-cover cover-robot">
-            <img class="project-photo photo-robot" src="https://images.unsplash.com/photo-1678225867994-e7a5b071ebfd?auto=format&fit=crop&w=1600&q=82" alt="A small wheeled robot car with visible wiring, used as reference photography rather than a photo of Ayan’s own prototype" loading="lazy" decoding="async">
+            <div class="robot-field-art doctor-robot-render" aria-hidden="true">
+              <svg class="doctor-robot-svg" viewBox="0 0 900 590" role="presentation" focusable="false">
+                <defs>
+                  <linearGradient id="robotBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dfe6d6"/><stop offset="1" stop-color="#9eaf96"/></linearGradient>
+                  <linearGradient id="robotBody" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fafaf1"/><stop offset=".6" stop-color="#cdd6c7"/><stop offset="1" stop-color="#9cab98"/></linearGradient>
+                  <linearGradient id="robotMetal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8c9a8d"/><stop offset=".5" stop-color="#e1e6d9"/><stop offset="1" stop-color="#879584"/></linearGradient>
+                  <linearGradient id="robotScreen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#273c2e"/><stop offset="1" stop-color="#101713"/></linearGradient>
+                  <filter id="robotShadow" x="-30%" y="-40%" width="160%" height="190%"><feDropShadow dx="0" dy="17" stdDeviation="17" flood-color="#26362a" flood-opacity=".25"/></filter>
+                </defs>
+                <rect width="900" height="590" fill="url(#robotBg)"/>
+                <path d="M0 96 900 30M0 182 900 116M0 268 900 202M0 354 900 288M0 440 900 374M0 526 900 460" stroke="#5f765d" stroke-opacity=".13"/>
+                <path d="M60 0V590M160 0V590M260 0V590M360 0V590M460 0V590M560 0V590M660 0V590M760 0V590M860 0V590" stroke="#5f765d" stroke-opacity=".09"/>
+                <text x="44" y="47" font-family="IBM Plex Mono,monospace" font-size="11" letter-spacing="1.8" fill="#425942">DOCTOR ROBOT / HARDWARE STUDY</text>
+                <text x="855" y="47" text-anchor="end" font-family="IBM Plex Mono,monospace" font-size="10" fill="#425942">ARDUINO / DC MOTOR</text>
+                <ellipse cx="447" cy="485" rx="244" ry="48" fill="#304230" opacity=".18"/>
+                <g filter="url(#robotShadow)">
+                  <!-- rear motors and wheels -->
+                  <g transform="translate(268 401) rotate(-9)"><rect x="-44" y="-56" width="90" height="111" rx="19" fill="#273b2d" stroke="#17271c" stroke-width="3"/><ellipse cx="0" cy="0" rx="41" ry="59" fill="#202b24" stroke="#101812" stroke-width="4"/><ellipse cx="0" cy="0" rx="25" ry="42" fill="#49584a"/><ellipse cx="0" cy="0" rx="12" ry="24" fill="#aebbad"/><circle cx="0" cy="0" r="7" fill="#273c2d"/></g>
+                  <g transform="translate(630 401) rotate(9)"><rect x="-43" y="-56" width="88" height="111" rx="18" fill="#273b2d" stroke="#17271c" stroke-width="3"/><ellipse cx="0" cy="0" rx="41" ry="59" fill="#202b24" stroke="#101812" stroke-width="4"/><ellipse cx="0" cy="0" rx="25" ry="42" fill="#49584a"/><ellipse cx="0" cy="0" rx="12" ry="24" fill="#aebbad"/><circle cx="0" cy="0" r="7" fill="#273c2d"/></g>
+                  <!-- chassis plate -->
+                  <path d="M254 331 605 307 690 360 337 391Z" fill="#778778" stroke="#314332" stroke-width="3"/>
+                  <path d="M254 331 337 391 337 410 254 350Z" fill="#566956" stroke="#314332" stroke-width="2"/>
+                  <path d="M337 391 690 360 690 379 337 410Z" fill="#a5b2a2" stroke="#314332" stroke-width="2"/>
+                  <!-- motor hubs and body -->
+                  <rect x="318" y="353" width="286" height="65" rx="8" transform="rotate(-5 461 385)" fill="url(#robotMetal)" stroke="#405341" stroke-width="2"/>
+                  <rect x="350" y="309" width="231" height="83" rx="9" transform="rotate(-5 465 350)" fill="url(#robotBody)" stroke="#576b58" stroke-width="2"/>
+                  <path d="M369 330 559 313" stroke="#fffdf3" stroke-width="4" opacity=".9"/>
+                  <!-- controller PCB -->
+                  <rect x="398" y="323" width="105" height="44" rx="4" transform="rotate(-5 450 345)" fill="#244c37" stroke="#152c1d" stroke-width="2"/>
+                  <rect x="414" y="332" width="26" height="23" rx="2" transform="rotate(-5 427 344)" fill="#17251b"/>
+                  <rect x="446" y="329" width="22" height="18" rx="2" transform="rotate(-5 457 338)" fill="#aebdad"/>
+                  <path d="M405 324v-10m12 10v-11m12 10v-11m12 10v-11m12 10v-11m12 10v-11m12 10v-11m12 10v-11m12 10v-11m-99 56v7m12-8v8m12-9v8m12-9v8m12-10v8m12-9v8m12-10v8" stroke="#c5d6a8" stroke-width="2"/>
+                  <path d="M505 347c32-22 48-19 57-8s-1 24 22 27" fill="none" stroke="#c88958" stroke-width="4"/>
+                  <path d="M502 360c27 8 32 25 54 21s22-20 39-15" fill="none" stroke="#d5ff43" stroke-width="3"/>
+                  <!-- upright sensor column -->
+                  <path d="M441 309 446 247 468 247 477 305" fill="url(#robotMetal)" stroke="#405341" stroke-width="3"/>
+                  <ellipse cx="457" cy="247" rx="28" ry="10" fill="#6e806f" stroke="#405341" stroke-width="2"/>
+                  <!-- tablet head -->
+                  <g transform="translate(459 203) rotate(-4)">
+                    <rect x="-91" y="-70" width="182" height="137" rx="14" fill="#263a2d" stroke="#17251b" stroke-width="4"/>
+                    <rect x="-78" y="-57" width="156" height="111" rx="7" fill="url(#robotScreen)" stroke="#7e937d" stroke-width="1.5"/>
+                    <circle cx="0" cy="-46" r="2.6" fill="#7e937d"/>
+                    <path d="M-20 3h40M0-17v40" stroke="#d5ff43" stroke-width="8" stroke-linecap="round"/>
+                    <circle cx="0" cy="73" r="3" fill="#d5ff43"/>
+                  </g>
+                  <!-- functional status lights and bumper -->
+                  <rect x="354" y="383" width="220" height="12" rx="6" fill="#26392c"/>
+                  <circle cx="373" cy="389" r="3.5" fill="#d5ff43"/><circle cx="387" cy="389" r="3.5" fill="#d9a47b"/><circle cx="401" cy="389" r="3.5" fill="#9eb8d6"/>
+                  <rect x="368" y="410" width="220" height="13" rx="6.5" fill="#354936"/>
+                  <!-- wheel front pair partially in foreground -->
+                  <g transform="translate(344 433) rotate(-8)"><ellipse cx="0" cy="0" rx="35" ry="49" fill="#1d2921" stroke="#101812" stroke-width="4"/><ellipse cx="0" cy="0" rx="22" ry="36" fill="#4a5a4a" stroke="#899889" stroke-width="2"/><ellipse cx="0" cy="0" rx="10" ry="20" fill="#adb9ab"/></g>
+                  <g transform="translate(589 430) rotate(8)"><ellipse cx="0" cy="0" rx="35" ry="49" fill="#1d2921" stroke="#101812" stroke-width="4"/><ellipse cx="0" cy="0" rx="22" ry="36" fill="#4a5a4a" stroke="#899889" stroke-width="2"/><ellipse cx="0" cy="0" rx="10" ry="20" fill="#adb9ab"/></g>
+                  <!-- small status sensors -->
+                  <g transform="translate(353 278)"><rect x="-20" y="-10" width="40" height="20" rx="4" fill="#25372a" stroke="#d5ff43" stroke-width="1"/><circle cx="-8" cy="0" r="4" fill="#d5ff43"/><circle cx="8" cy="0" r="4" fill="#8cbdce"/></g>
+                </g>
+                <g><rect x="42" y="475" width="199" height="68" rx="5" fill="#eef2e7" stroke="#9eae98"/><text x="58" y="498" font-family="IBM Plex Mono,monospace" font-size="9" letter-spacing=".7" fill="#71856e">01 / CONTROL</text><text x="58" y="521" font-family="Space Grotesk,sans-serif" font-size="14" fill="#263a2b">Arduino + driver</text></g>
+                <g><rect x="657" y="475" width="199" height="68" rx="5" fill="#eef2e7" stroke="#9eae98"/><text x="673" y="498" font-family="IBM Plex Mono,monospace" font-size="9" letter-spacing=".7" fill="#71856e">02 / MOVEMENT</text><text x="673" y="521" font-family="Space Grotesk,sans-serif" font-size="14" fill="#263a2b">Geared DC motors</text></g>
+              </svg>
+            </div>
             <div class="cover-gradient"></div>
             <div class="cover-top"><span class="cover-index">08 / HARDWARE PROTOTYPE</span><span class="state-chip state-prototype">Prototype</span></div>
             <div class="cover-title"><span>ARDUINO UNO · L298N · DC MOTORS</span><strong>Doctor Robot</strong></div>
@@ -415,7 +585,7 @@
     <div class="case-scrim" data-case-close aria-hidden="true"></div>
     <section class="case-panel" role="dialog" aria-modal="true" aria-labelledby="case-title" tabindex="-1">
       <div class="case-header">
-        <a href="#top" class="case-brand" data-case-home><span class="brand-mark">a<span>.</span></span><span>FIELD NOTES / PROJECT ARCHIVE</span></a>
+        <a href="#top" class="case-brand" data-case-home><span class="brand-mark brand-symbol" aria-hidden="true"><svg viewBox="0 0 40 40" focusable="false"><path d="M7.5 30 19.5 7.5 31.5 30" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="square" stroke-linejoin="miter"/><path d="M12.8 21.5h13.4" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="31" cy="29.5" r="3.2" fill="var(--acid)"/></svg></span><span>FIELD NOTES / PROJECT ARCHIVE</span></a>
         <div class="case-header-right"><span id="case-count">01 / 10</span><button class="case-close" type="button" data-case-close aria-label="Close project details"><span></span><span></span></button></div>
       </div>
       <div class="case-content">
