@@ -1160,3 +1160,25 @@ button.card-arrow:hover{background:var(--acid);color:var(--ink);border-color:var
 .eco-number,.eco-stage{color:#50466f}
 .ecosystem-card p{color:#57516f}
 .credential-row .credential-number,.credential-row .credential-info small,.credential-row .credential-type{color:#898f7e}
+
+
+/* Contrast refinements from full-page checks (without flattening the palette). */
+.cover-vastu .cover-top .cover-index{color:#b9b09a!important}
+.atimos-overline{color:#59458f!important}
+#atimos-title>span{color:#6e50b7!important}
+.atimos-copy>p{color:#57516f!important}
+.atimos-ui-content>strong>em{color:#7762b9!important}
+.atimos-ui-capsules>i:nth-child(1){color:#4e428d!important}
+.atimos-ui-capsules>i:nth-child(3){color:#3b5c83!important}
+.mini-card-memory>span:nth-child(2)>small,.mini-card-tools>span:nth-child(2)>small{color:#62677e!important}
+.ecosystem-card .eco-number,.ecosystem-card .eco-stage{color:#554875!important}
+.ecosystem-card p{color:#56506f!important}
+.capability-top{color:#929989!important}
+.capability-tags span{color:#929989!important}
+.about-signature{color:#929989!important}
+.experience-year{color:#929989!important}
+.experience-row h3{color:var(--paper)!important}
+.experience-row p{color:#b8bcad!important}
+.credential-number{color:#a2aa94!important}
+.credential-info strong{color:var(--paper)!important}
+.credential-info small,.credential-type{color:#a2aa94!important}
