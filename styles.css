@@ -1182,3 +1182,8 @@ button.card-arrow:hover{background:var(--acid);color:var(--ink);border-color:var
 .credential-number{color:#a2aa94!important}
 .credential-info strong{color:var(--paper)!important}
 .credential-info small,.credential-type{color:#a2aa94!important}
+
+
+/* Keep diagnostic code legible even in the compact mobile project cover. */
+.api-diagnostic .diagnostic-line code{color:#c0ccb1!important;font-size:9px}
+@media(max-width:760px){.api-diagnostic .diagnostic-line code{font-size:9px}}
