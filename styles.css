@@ -1137,3 +1137,26 @@ button.card-arrow:hover{background:var(--acid);color:var(--ink);border-color:var
 .atimos-section .section-kicker>span:first-child{color:#5a469c}
 .atimos-section .section-kicker>span:nth-child(3){color:#625b80}
 .footer-inner small,#current-year{color:#858b79}
+
+
+/* Final contrast pass: keep the pastel micro-UI readable and deepen muted labels. */
+.flow-ui-bar>small{font-size:8px;color:#4e536e}
+.flow-ui-body>span{font-size:8px;color:#554b87}
+.flow-ui-pills>i{font-size:7px;color:#55428c}
+.flow-ui-pills>i:nth-child(2){color:#245c49}
+.cover-doctor-api .state-prototype{color:#eef0df;background:rgba(16,17,14,.92);border-color:#9aa67b}
+.rumble-art>div>strong{color:#eeeee5}
+.rumble-year{color:#aab7c9}
+.cover-dance .cover-top .cover-index{color:#30223d;background:rgba(247,240,252,.92);padding:6px 8px}
+.cover-dance .cover-top .state-explore{color:#39264e;background:#f4edf8;border-color:#655278}
+.atimos-overline{color:#55458f}
+.text-link{color:#4d3f96}
+.atimos-ui-top>span:nth-child(2){font-size:8px;color:#4b536e}
+.atimos-ui-kicker{font-size:8px;color:#62509d}
+.atimos-ui-capsules>i{font-size:7px}
+.atimos-ui-capsules>i:nth-child(2){color:#265f4c}
+.atimos-ui-capsules>i:nth-child(3){color:#355d8a}
+.mini-card-memory>span:nth-child(2)>small,.mini-card-tools>span:nth-child(2)>small{font-size:8px;color:#5b6079}
+.eco-number,.eco-stage{color:#50466f}
+.ecosystem-card p{color:#57516f}
+.credential-row .credential-number,.credential-row .credential-info small,.credential-row .credential-type{color:#898f7e}
