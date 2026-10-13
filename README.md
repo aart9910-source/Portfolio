@@ -6,11 +6,13 @@ A responsive, static portfolio documenting experiments in AI systems, web experi
 
 ## Art direction
 
-The visual concept is **The Building Field**: an editorial dark canvas, acid-lime signal colour, expressive typography and a custom generative line field in the hero. The main visual is written in Canvas and responds to pointer movement; the field becomes a quiet, touch-friendly visual on mobile. Project covers use custom CSS artwork alongside a real screenshot of the live WebHorizn website.
+The visual concept is **The Building Field**: an editorial dark canvas, acid-lime signal colour, expressive typography and a custom generative line field in the hero. The hero canvas responds to pointer movement; the field becomes a quieter, touch-friendly visual on mobile. The project gallery now combines real reference photography, a live WebHorizn screenshot and a few custom-built CSS interface studies rather than synthetic-looking artwork on every card.
+
+Typography has been increased for easier reading on desktop and mobile, with image grading and title gradients tuned for a consistent visual system.
 
 ## Field Notes
 
-Every project has an interactive case-study panel with its own context, approach, status, tools and links where available. Panels support keyboard navigation, Escape to close, previous/next browsing, focus restoration and responsive layouts.
+Every project has an interactive case-study panel with context, approach, status, tools and links where available. Panels support keyboard navigation, Escape to close, previous/next browsing, focus restoration and responsive layouts.
 
 Project statuses are deliberately honest:
 - **Live:** WebHorizn.
@@ -18,7 +20,11 @@ Project statuses are deliberately honest:
 - **Concepts / explorations:** HELIOS, Atimos Flow, prompt/agent experiments, Senura AI and Dance Maze Company media exploration.
 - **Event experience:** Robo Rumble 2026.
 
-The portfolio does not present concept art as proof of a shipped product, claim unverified results for Senura AI, call Doctor Robot a deployed medical device, or mark the Vastu lead workflow as verified. A public link is shown where one is available.
+Several covers use illustrative reference photographs rather than images of Ayan's own project builds. Captions and alt text identify these as reference images; they are not presented as screenshots of products or as proof that a concept is shipped. The portfolio also avoids claiming unverified model results, describing Doctor Robot as a deployed medical device, or marking the Vastu lead workflow as verified.
+
+## Image credits
+
+Reference photographs are sourced from Unsplash and used under the Unsplash License. Source pages: [Dhony Koswara — dark workspace](https://unsplash.com/photos/laptop-mug-and-notebooks-on-a-dark-workspace-uxxGF7g754U), [Clevenider Petit — dark computer desk](https://unsplash.com/photos/a-dark-office-desk-with-a-computer-monitor-rtY0WbkRdPk), [Rushikesh Patil — courtyard](https://unsplash.com/photos/a-bench-sitting-in-the-middle-of-a-courtyard-n2SwyHno0G4), [Gabriel Vasiliu — small robot car](https://unsplash.com/photos/a-small-robot-car-with-wheels-and-wires-attached-to-it-mVJzfw2Zm7Y), [Mikhail Seleznev — robotic vehicles](https://unsplash.com/photos/several-blue-robotic-vehicles-with-wheels-lined-up-_2r05WCBe4A), and [Pesce Huang — dance studio](https://unsplash.com/photos/a-man-and-a-woman-dance-in-a-dance-studio-_0GKDlwU4BU).
 
 ## Project areas
 
@@ -51,7 +57,7 @@ Open `index.html` directly or serve the folder using any static web server. Ther
 ## Files
 
 - `index.html` — semantic page structure, project cards and accessible field-note dialog.
-- `styles.css` — art direction, project artwork, layout, responsive design and reduced-motion states.
+- `styles.css` — art direction, reference-photo treatments, layout, responsive design and reduced-motion states.
 - `app.js` — mobile navigation, project filters, generative canvas, interactions and project case-study content.
 - `orb.svg` / `favicon.svg` — retained vector assets.
 
