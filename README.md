@@ -26,8 +26,8 @@ Several covers use illustrative reference photographs rather than images of Ayan
 
 Reference photographs are mood/context imagery, not photographs of Ayan's own builds unless explicitly described as a live-site screenshot. They are labelled that way in alt text and project notes.
 
-- [Laptop with code in a cozy workspace](https://www.pexels.com/photo/modern-laptop-displaying-code-in-cozy-workspace-34803986/) — Pexels, free-use photo.
-- [Modern desk with monitor and laptop](https://www.pexels.com/photo/modern-workspace-with-keyboard-and-monitor-31198911/) — Pexels, free-use photo.
+- [Laptop with code editor on a wooden desk](https://www.pexels.com/photo/laptop-with-code-editor-on-wooden-desk-34804004/) — Pexels, free-use photo.
+- [Minimal workstation with a desktop monitor](https://www.pexels.com/photo/modern-computer-placed-on-black-table-in-light-workspace-6044924/) — Pexels, free-use photo.
 - [Contemporary dance rehearsal](https://www.pexels.com/photo/people-rehearsing-a-dance-6926538/) — Pexels, free-use photo.
 
 The courtyard and robot/competition reference photos are served from Unsplash's image CDN. Their original creator pages have not been independently verified, so this README does not assign individual photographer credit to them. Replace these contextual images with original project photography when available.
