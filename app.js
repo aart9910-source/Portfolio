@@ -219,7 +219,7 @@
   var activeCaseIndex=0;
   var caseData=[
     {
-      id:'senura',title:'Senura AI',kind:'AI / LANGUAGE MODELS',status:'In progress',role:'Independent learning project',caption:'MODEL STUDY / CONCEPT VISUAL',
+      id:'senura',title:'Senura AI',kind:'AI / LANGUAGE MODELS',status:'In progress',role:'Independent learning project',caption:'REFERENCE PHOTO / RESEARCH DESK',
       lede:'A model is more than its parameter count. This experiment starts with the data, the training loop, and the cost of learning something useful from limited compute.',
       story:[
         {label:'01 / THE QUESTION',title:'What does the data teach?',copy:'Explore the early decisions behind language-model work: dataset preparation, training workflow, and how to judge whether an experiment is telling you anything useful.'},
@@ -229,7 +229,7 @@
       tags:['Dataset preparation','Kaggle','T4 GPUs','Quantization research'],links:[],note:'Concept visuals are illustrations, not screenshots of a trained model.'
     },
     {
-      id:'helios',title:'HELIOS',kind:'AI / PERSONAL COMPUTING',status:'Concept',role:'Product architecture & systems thinking',caption:'INTERACTION STUDY / CONCEPT VISUAL',
+      id:'helios',title:'HELIOS',kind:'AI / PERSONAL COMPUTING',status:'Concept',role:'Product architecture & systems thinking',caption:'REFERENCE PHOTO / DESKTOP STUDY',
       lede:'What if a desktop assistant behaved less like a chat tab and more like a thoughtful, persistent layer across your computer?',
       story:[
         {label:'01 / THE IDEA',title:'Context that stays useful.',copy:'HELIOS is a vision for a local-first AI desktop companion that can remember working context, understand the task at hand, and move between research, files, browser, terminal and apps.'},
@@ -279,7 +279,7 @@
       tags:['HTML / CSS / JavaScript','Responsive design','Vercel','Service storytelling'],links:[{label:'Visit the live website',url:'https://webhorizn.vercel.app/',type:'live'}],note:'The artwork above is a capture of the live website.'
     },
     {
-      id:'vastu',title:'Vastu landing page',kind:'WEB / LANDING PAGE',status:'Build & integration',role:'Landing-page design & deployment',caption:'LANDING PAGE STUDY',
+      id:'vastu',title:'Vastu landing page',kind:'WEB / LANDING PAGE',status:'Build & integration',role:'Landing-page design & deployment',caption:'ARCHITECTURE REFERENCE / NOT A PRODUCT SCREEN',
       lede:'A focused landing page has two jobs: tell a clear story and turn genuine interest into a lead without making the user work for it.',
       story:[
         {label:'01 / THE EXPERIENCE',title:'Give the page one clear purpose.',copy:'This build explores a more visual landing-page structure, with deliberate type hierarchy and a designed path toward an enquiry.'},
@@ -289,7 +289,7 @@
       tags:['Landing pages','Netlify','Lead capture','Google Sheets workflow'],links:[],note:'Lead capture is not described as fully working until the full flow is verified.'
     },
     {
-      id:'doctor-robot',title:'Doctor Robot',kind:'ROBOTICS / EMBEDDED SYSTEMS',status:'Prototype',role:'School robotics build',caption:'MECHANICAL STUDY / PROTOTYPE',
+      id:'doctor-robot',title:'Doctor Robot',kind:'ROBOTICS / EMBEDDED SYSTEMS',status:'Prototype',role:'School robotics build',caption:'REFERENCE PHOTO / NOT THE PHYSICAL PROTOTYPE',
       lede:'A school robotics project where the software has to survive contact with motors, power and actual wiring.',
       story:[
         {label:'01 / THE PROBLEM',title:'Make the hardware move predictably.',copy:'The prototype explores motor control and battery-powered movement. In robotics, a wiring plan and power budget matter as much as the sketch running on the board.'},
@@ -299,7 +299,7 @@
       tags:['Arduino UNO','L298N','Geared DC motors','Power electronics'],links:[],note:'Illustration is an original concept graphic, not a photograph of a completed robot.'
     },
     {
-      id:'robo-rumble',title:'Robo Rumble 2026',kind:'ROBOTICS / EVENT EXPERIENCE',status:'2026 event',role:'Organiser & host',caption:'EVENT IDENTITY STUDY',
+      id:'robo-rumble',title:'Robo Rumble 2026',kind:'ROBOTICS / EVENT EXPERIENCE',status:'2026 event',role:'Organiser & host',caption:'ILLUSTRATIVE ROBOTICS REFERENCE PHOTO',
       lede:'Engineering is not only the robot. It is also the schedule, the teams, the rules, the hand-offs and the energy in the room.',
       story:[
         {label:'01 / THE EVENT',title:'An inter-house robotics competition.',copy:'Robo Rumble brought together school teams around RoboRace, RoboWar and RoboSoccer—three formats with different demands on build quality, strategy and match flow.'},
@@ -309,7 +309,7 @@
       tags:['Event operations','RoboRace','RoboWar','RoboSoccer','Hosting'],links:[],note:'This is an event experience, not a software product.'
     },
     {
-      id:'dance-maze',title:'Dance Maze Company',kind:'CREATIVE / AI-ASSISTED MEDIA',status:'Exploration',role:'Creative direction & video workflow',caption:'MOTION / STORYBOARD STUDY',
+      id:'dance-maze',title:'Dance Maze Company',kind:'CREATIVE / AI-ASSISTED MEDIA',status:'Exploration',role:'Creative direction & video workflow',caption:'REFERENCE PHOTO / NOT A FINAL AD FRAME',
       lede:'A promotional video has to feel like one idea from the first frame to the final beat—not a pile of individually impressive AI clips.',
       story:[
         {label:'01 / THE BRIEF',title:'Give the dance brand a point of view.',copy:'The direction is a promotional piece for Dance Maze Company, a dance academy brand whose visual story should welcome a broader mix of dancers and feel like a real company, not a generic fitness ad.'},
