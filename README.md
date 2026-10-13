@@ -6,7 +6,7 @@ A responsive, static portfolio documenting experiments in AI systems, web experi
 
 ## Art direction
 
-The visual concept is **The Building Field**: an editorial dark canvas, acid-lime signal colour, expressive typography and a custom generative line field in the hero. The hero canvas responds to pointer movement; the field becomes a quieter, touch-friendly visual on mobile. The project gallery now combines real reference photography, a live WebHorizn screenshot and a few custom-built CSS interface studies rather than synthetic-looking artwork on every card.
+The visual concept is **The Building Field**: an editorial dark canvas, acid-lime signal colour, expressive typography and a custom generative line field in the hero. The hero canvas responds to pointer movement; the field becomes a quieter, touch-friendly visual on mobile. The project gallery combines reference photography, a live WebHorizn screenshot, and original inline SVG artwork for the Atimos Flow system, Promptetix workflows, API diagnostics, and the Doctor Robot concept render. The native browser cursor is preserved; only the hero field reacts to pointer movement.
 
 Typography has been increased for easier reading on desktop and mobile, with image grading and title gradients tuned for a consistent visual system.
 
@@ -20,7 +20,7 @@ Project statuses are deliberately honest:
 - **Concepts / explorations:** HELIOS, Atimos Flow, prompt/agent experiments, Senura AI and Dance Maze Company media exploration.
 - **Event experience:** Robo Rumble 2026.
 
-Several covers use illustrative reference photographs rather than images of Ayan's own project builds. Captions and alt text identify these as reference images; they are not presented as screenshots of products or as proof that a concept is shipped. The portfolio also avoids claiming unverified model results, describing Doctor Robot as a deployed medical device, or marking the Vastu lead workflow as verified.
+Several covers use illustrative reference photographs rather than images of Ayan's own project builds. Captions and alt text identify these as reference images; they are not presented as screenshots of products or as proof that a concept is shipped. The Atimos Flow, Promptetix, API Health and Doctor Robot visuals are original vector/interface illustrations created for this portfolio and are explicitly treated as concept art where relevant. The portfolio also avoids claiming unverified model results, describing Doctor Robot as a deployed medical device, or marking the Vastu lead workflow as verified.
 
 ## Image credits
 
@@ -30,7 +30,7 @@ Reference photographs are mood/context imagery, not photographs of Ayan's own bu
 - [Minimal workstation with a desktop monitor](https://www.pexels.com/photo/modern-computer-placed-on-black-table-in-light-workspace-6044924/) — Pexels, free-use photo.
 - [Contemporary dance rehearsal](https://www.pexels.com/photo/people-rehearsing-a-dance-6926538/) — Pexels, free-use photo.
 
-The courtyard and robot/competition reference photos are served from Unsplash's image CDN. Their original creator pages have not been independently verified, so this README does not assign individual photographer credit to them. Replace these contextual images with original project photography when available.
+The courtyard and Robo Rumble competition reference photos are served from Unsplash's image CDN. Their original creator pages have not been independently verified, so this README does not assign individual photographer credit to them. Doctor Robot is now a bespoke SVG concept render rather than a stock robot photograph. Replace contextual photography with original project photographs when available.
 ## Project areas
 
 - **AI systems:** Senura AI, HELIOS, API Key Health Doctor, Promptetix, Promptmatics, AI Lang and early Syntax Bot ideas.
