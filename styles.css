@@ -1276,3 +1276,9 @@ button.card-arrow:hover{background:var(--acid);color:var(--ink);border-color:var
 .cover-dance>.project-photo{filter:saturate(.9) contrast(1.03) brightness(.88)!important}
 .cover-index,.state-chip{font-size:10px}
 @media(max-width:760px){.cover-index,.state-chip{font-size:9px}}
+
+
+/* Last readability tune: slightly calmer shadows on the minimalist HELIOS desk, larger case-study copy. */
+.cover-helios>.project-photo{filter:saturate(.78) contrast(1.04) brightness(.76)!important}
+.case-story-copy{font-size:15px;line-height:1.85}
+@media(max-width:760px){.case-story-copy{font-size:14px;line-height:1.8}}
