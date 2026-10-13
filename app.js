@@ -352,7 +352,7 @@
       caseLinks.appendChild(a);
     });
   }
-  function showCase(index,focusPanel){
+  function showCase(index){
     if(!caseDialog||!casePanel)return;
     activeCaseIndex=(index+caseData.length)%caseData.length;
     var item=caseData[activeCaseIndex];
@@ -382,12 +382,11 @@
     document.getElementById('case-prev').disabled=caseData.length<2;
     document.getElementById('case-next').disabled=caseData.length<2;
     casePanel.scrollTop=0;
-    if(focusPanel)document.querySelector('.case-close').focus({preventScroll:true});
   }
   function openCase(id,trigger){
     var item=caseById[id];if(!item||!caseDialog)return;
     caseOpener=trigger||document.activeElement;
-    showCase(item.index,true);
+    showCase(item.index);
     caseDialog.hidden=false;document.body.classList.add('case-modal-open');
     document.querySelector('.case-close').focus({preventScroll:true});
   }
@@ -402,8 +401,8 @@
   if(caseDialog){
     caseDialog.querySelectorAll('[data-case-close]').forEach(function(el){el.addEventListener('click',closeCase);});
     document.querySelector('[data-case-home]').addEventListener('click',function(e){e.preventDefault();closeCase();window.scrollTo({top:0,behavior:reduced?'auto':'smooth'});});
-    document.getElementById('case-prev').addEventListener('click',function(){showCase(activeCaseIndex-1,true);});
-    document.getElementById('case-next').addEventListener('click',function(){showCase(activeCaseIndex+1,true);});
+    document.getElementById('case-prev').addEventListener('click',function(){showCase(activeCaseIndex-1);});
+    document.getElementById('case-next').addEventListener('click',function(){showCase(activeCaseIndex+1);});
     caseDialog.addEventListener('keydown',function(e){
       if(e.key==='Escape'){e.preventDefault();closeCase();return;}
       if(e.key==='ArrowLeft'){e.preventDefault();showCase(activeCaseIndex-1,true);return;}
