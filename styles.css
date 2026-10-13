@@ -1263,3 +1263,16 @@ button.card-arrow:hover{background:var(--acid);color:var(--ink);border-color:var
  .case-status-row{font-size:9px}
 }
 @media(prefers-reduced-motion:reduce){.project-cover>.project-photo{transition:none!important}}
+
+
+/* Let the photography breathe: the project cover already has its own title gradient. */
+.project-cover:has(>.project-photo)::after{display:none!important}
+.case-media .project-cover:has(>.project-photo)::after{display:none!important}
+.cover-senura>.project-photo{filter:saturate(.9) contrast(1.02) brightness(.9)!important}
+.cover-helios>.project-photo{filter:saturate(.86) contrast(1.03) brightness(.88)!important}
+.cover-vastu>.project-photo{filter:saturate(.82) contrast(1.03) brightness(.9)!important}
+.cover-robot>.project-photo{filter:saturate(.82) contrast(1.05) brightness(.88)!important}
+.cover-rumble>.project-photo{filter:saturate(.88) contrast(1.03) brightness(.86)!important}
+.cover-dance>.project-photo{filter:saturate(.9) contrast(1.03) brightness(.88)!important}
+.cover-index,.state-chip{font-size:10px}
+@media(max-width:760px){.cover-index,.state-chip{font-size:9px}}
