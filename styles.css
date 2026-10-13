@@ -1538,3 +1538,10 @@ button.card-arrow:hover{background:var(--acid);color:var(--ink);border-color:var
 }
 
 /* Do not tint the actual browser pointer away: only the hero field reacts to it. */
+
+
+/* Ensure the Atimos display type uses sage, not the old lavender accent. */
+#atimos-title>span{color:#667f58!important}
+.atimos-visual{aspect-ratio:900/750!important}
+@media(max-width:1040px){.atimos-visual{aspect-ratio:900/750!important}}
+@media(max-width:760px){.atimos-visual{aspect-ratio:1.08!important}}
